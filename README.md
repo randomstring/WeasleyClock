@@ -11,8 +11,8 @@
 </li>
 <li><a href="#sec-2">2. Shoppting list</a>
 <ul>
-<li><a href="#sec-2-1">2.1. Shopping list from Servo City servocity.com</a></li>
-<li><a href="#sec-2-2">2.2. Shopping list from Hobbylinc </a></li>
+<li><a href="#sec-2-1">2.1. Shopping list from Servo City</a></li>
+<li><a href="#sec-2-2">2.2. Shopping list from Hobbylinc</a></li>
 <li><a href="#sec-2-3">2.3. Notes on parts</a></li>
 </ul>
 </li>
@@ -60,7 +60,7 @@ Build a working physical Weasley Clock from Harry Potter.
 
 # Shoppting list<a id="sec-2" name="sec-2"></a>
 
-## Shopping list from Servo City servocity.com<a id="sec-2-1" name="sec-2-1"></a>
+## Shopping list from Servo City<a id="sec-2-1" name="sec-2-1"></a>
 
 -   4 HS-785HB SERVO   SKU: 33785S
 -   3 32T, 0.250" (1/4) Bore 32P Shaft Mount Pinion Gear SKU: 615254
@@ -73,12 +73,12 @@ Build a working physical Weasley Clock from Harry Potter.
 -   4MM (0.770") CLAMPING HUB SKU: 545608
 -   3MM (0.770") CLAMPING HUB SKU: 545604
 
-## Shopping list from Hobbylinc <https://www.hobbylinc.com/htm/k+s/k+s9821.htm><a id="sec-2-2" name="sec-2-2"></a>
+## Shopping list from Hobbylinc<a id="sec-2-2" name="sec-2-2"></a>
 
+-   <https://www.hobbylinc.com/htm/k+s/k+s9821.htm>
 -   NOTE: checked items are a good set for a 4 hand clock. Theoretically
-
-possible to create a 6 hand clock with all of the sizes. However,
-servocity doesn't sell clamping hubs for size 2mm and 7mm.
+    possible to create a 6 hand clock with all of the sizes. However,
+    servocity doesn't sell clamping hubs for size 2mm and 7mm.
 -   parts:
     -   [ ] 2mm x 300mm Round Brass Tube .45mm Wall (4) k+s9820 Item # K+S9820
     -   [X] 3mm x 300mm Round Brass Tube .45mm Wall (4) k+s9821 Item # K+S9821
