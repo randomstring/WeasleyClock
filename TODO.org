@@ -1,0 +1,16 @@
+* TODO investigate using pyicloud https://github.com/picklepete/pyicloud
+* TODO investigate using life360
+* TODO add MQTT listener for state transitions
+* TODO outline code for Weasly Clock
+ - geocomponent (HA zones)
+ - map zones to clock state (HA zone -> clock zone)
+   Home, In Transit, Lost, Garden, School, Work, Mortal Peril, Quidditch
+ - clock rotate hand to given zone
+ - clock listen for zone changes
+ - script to send arbitrary zone changes to clock
+ - demo script to randomize zone changes
+* TODO CAD model
+ - get CAD for servos
+ - CAD for gears, brass tubes, etc
+ - generate 3d model for 3d printing the hands
+
