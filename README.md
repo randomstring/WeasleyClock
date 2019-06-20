@@ -115,7 +115,7 @@ Build a working physical Weasley Clock from Harry Potter.
 <tr>
 <td class="right">1</td>
 <td class="left">32P, 32 Tooth, 24T C1 Spline Servo Mount Gear (Metal)</td>
-<td class="right">&#xa0;</td>
+<td class="right">615290</td>
 </tr>
 
 

@@ -40,7 +40,7 @@
   |-------+-----------------------------------------------------------+--------|
   |     4 | HS-785HB SERVO                                            | 33785S |
   |     3 | 32T, 0.250" (1/4) Bore 32P Shaft Mount Pinion Gear        | 615254 |
-  |     1 | 32P, 32 Tooth, 24T C1 Spline Servo Mount Gear (Metal)     |        |
+  |     1 | 32P, 32 Tooth, 24T C1 Spline Servo Mount Gear (Metal)     | 615290 |
   |     3 | C1 SPLINE SERVO TO 1/4" SHAFT COUPLER (SET SCREW)         | 525134 |
   |     3 | 0.250" (1/4") X 2.50" (2-1/2") STAINLESS STEEL D-SHAFTING | 634074 |
   |     4 | 32 Pitch, 64 Tooth (.50" Bore) Aluminum Hub Gear          | 615194 |
