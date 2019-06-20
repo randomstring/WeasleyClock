@@ -20,6 +20,8 @@
   - https://www.instagram.com/printableprops/
   - https://fourierinformationsir.wordpress.com/2015/11/09/weasley-clock-update/
   - https://twitter.com/wbtourlondon/status/765398939910627328?lang=mr
+** Artwork
+  - https://minalima.com/product/the-weasley-family-clock/
 * Shoppting list
 ** Raspberry Pi
  + standard set of Raspberry pi requirements. Pi, power supply, SD card, case
