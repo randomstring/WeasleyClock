@@ -11,25 +11,24 @@
   - program in python
   - use live GPS data of family members
   - GPS updates from one or more of: iCloud, Owntracks, life360, local MQTT, and/or local network device scanning
+** Case Design
+  - To be determined..
+  - build a custom cabinet or reuse an old Clock body
 ** Related Projects for Inspiration
   - https://www.instructables.com/id/Build-Your-Own-Weasley-Location-Clock/
   - https://printableprops.jimdo.com/en/harry-potter/weasley-clock/
   - https://www.instagram.com/printableprops/
   - https://fourierinformationsir.wordpress.com/2015/11/09/weasley-clock-update/
   - https://twitter.com/wbtourlondon/status/765398939910627328?lang=mr
-** Notes on parts
-- Servo control
-   servo hat: https://www.adafruit.com/product/2327
-   Servo: https://www.servocity.com/hs-785hb-servo
- - https://www.servocity.com/32p-24t-c1-spline-servo-mount-gears-metal
-   32P, 24T C1 Spline Servo Mount Gears (Metal)
-   NOTE: These don't clear the servo body, need a smaller servo? or stagger the
-   gears.
- - hubs for servo gears: https://www.servocity.com/standard-hub-horns
- - https://www.servocity.com/32-pitch-50-bore-aluminum-hub-gears
-   1/2" Bore 32 Pitch Aluminum Hub Gears
- - mounting nuts for al hub gears.
 * Shoppting list
+** Raspberry Pi
+ + standard set of Raspberry pi requirements. Pi, power supply, SD card, case
+** Servo Hat
+ + Raspberry Pi servo hat: https://www.adafruit.com/product/2327
+   - requires soldering
+ + Servo power, one of:
+   - 5V 2A should be enough if motors aren't overloaded simutaneously https://www.adafruit.com/product/276
+   - 5V 4A to hedge bets, or if you run more servso https://www.adafruit.com/product/1466
 ** Shopping list from Servo City
   + 4 HS-785HB SERVO   SKU: 33785S
   + 3 32T, 0.250" (1/4) Bore 32P Shaft Mount Pinion Gear SKU: 615254
@@ -53,18 +52,22 @@
    - [X] 5mm x 300mm Round Brass Tube .45mm Wall (3) k+s9823 Item # K+S9823
    - [X] 6mm x 300mm Round Brass Tube .45mm Wall (2) k+s9824 Item # K+S9824
    - [ ] 7mm x 300mm Round Brass Tube .45mm Wall (2) k+s9825 Item # K+S9825
-
 ** Notes on parts
- - https://www.servocity.com/32p-24t-c1-spline-servo-mount-gears-metal
+ + https://www.servocity.com/32p-24t-c1-spline-servo-mount-gears-metal
    NOTE: The 32 tooth gears don't fully clear the servo body. This
    means that to use more than one servo, we need to use a shaft so
    that central 64 tooth gears don't hit/interfere with the servos.
- - Using 64 tooth gears mounted to the brass tubes. This gives a clean
+ + Using 64 tooth gears mounted to the brass tubes. This gives a clean
    1:2 ration from the servos.
- - The HS-785HB Servos have a claimed 8 full rotations. I only need 2
-   full rotations to get the full range of motion of the clock
-   hands. Having more than 360 degrees of motion allows for a little
-   *flair* when positioning the hands. I'm going to use just 6 full
-   rotations of the servo (so 3 full rotations of the hands) to avoid
-   using the extremes of the PWM signals to the servos.
-
+ + HS-785HB Servo
+   - specs https://www.robotshop.com/media/files/pdf/hs-785hb.pdf
+   - Grabcad model https://grabcad.com/library/hitec-hs-785hb-winch-servo-1
+   - The HS-785HB Servos have a claimed 8 full rotations. I only need
+     2 full rotations to get the full range of motion of the clock
+     hands. Having more than 360 degrees of motion allows for a little
+     *flair* when positioning the hands. I'm going to use just 6 full
+     rotations of the servo (so 3 full rotations of the hands) to
+     avoid using the extremes of the PWM signals to the servos.
+   - Stall current for HS-785HB is 1500mA. Max current 6A (at 5V?)
+   - No load current for HS-785HB is 230mA
+   - Idle current for HS-785HB is 9mA
