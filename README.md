@@ -6,8 +6,9 @@
 <ul>
 <li><a href="#sec-1-1">1.1. Design Goals/Plans</a></li>
 <li><a href="#sec-1-2">1.2. Case Design</a></li>
-<li><a href="#sec-1-3">1.3. Related Projects for Inspiration</a></li>
-<li><a href="#sec-1-4">1.4. Artwork</a></li>
+<li><a href="#sec-1-3">1.3. Clock hands</a></li>
+<li><a href="#sec-1-4">1.4. Related Projects for Inspiration</a></li>
+<li><a href="#sec-1-5">1.5. Artwork</a></li>
 </ul>
 </li>
 <li><a href="#sec-2">2. Shoppting list</a>
@@ -44,7 +45,13 @@ Build a working physical Weasley Clock from Harry Potter.
 -   To be determined..
 -   build a custom cabinet or reuse an old Clock body
 
-## Related Projects for Inspiration<a id="sec-1-3" name="sec-1-3"></a>
+## Clock hands<a id="sec-1-3" name="sec-1-3"></a>
+
+-   goal is something like the metalic scissors w/ engraved names
+-   mounting could be with 3D printing with a built in clamp
+-   possibly use same Clamping Hubs as for the gears
+
+## Related Projects for Inspiration<a id="sec-1-4" name="sec-1-4"></a>
 
 -   <https://www.instructables.com/id/Build-Your-Own-Weasley-Location-Clock/>
 -   <https://printableprops.jimdo.com/en/harry-potter/weasley-clock/>
@@ -52,7 +59,7 @@ Build a working physical Weasley Clock from Harry Potter.
 -   <https://fourierinformationsir.wordpress.com/2015/11/09/weasley-clock-update/>
 -   <https://twitter.com/wbtourlondon/status/765398939910627328?lang=mr>
 
-## Artwork<a id="sec-1-4" name="sec-1-4"></a>
+## Artwork<a id="sec-1-5" name="sec-1-5"></a>
 
 -   <https://minalima.com/product/the-weasley-family-clock/>
 
@@ -72,16 +79,95 @@ Build a working physical Weasley Clock from Harry Potter.
 
 ## Shopping list from Servo City<a id="sec-2-3" name="sec-2-3"></a>
 
--   4 HS-785HB SERVO   SKU: 33785S
--   3 32T, 0.250" (1/4) Bore 32P Shaft Mount Pinion Gear SKU: 615254
--   1 32P, 32 Tooth, 24T C1 Spline Servo Mount Gear (Metal)
--   3 C1 SPLINE SERVO TO 1/4" SHAFT COUPLER (SET SCREW) SKU: 525134
--   3 0.250" (1/4") X 2.50" (2-1/2") STAINLESS STEEL D-SHAFTING SKU: 634074
--   4 32 Pitch, 64 Tooth (.50" Bore) Aluminum Hub Gear        615194
--   6mm (0.770") Clamping Hub   545616
--   5mm (0.770") Clamping Hub        545612
--   4MM (0.770") CLAMPING HUB SKU: 545608
--   3MM (0.770") CLAMPING HUB SKU: 545604
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="right" />
+
+<col  class="left" />
+
+<col  class="right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="right">Count</th>
+<th scope="col" class="left">Description</th>
+<th scope="col" class="right">SKU</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td class="right">4</td>
+<td class="left">HS-785HB SERVO</td>
+<td class="right">33785S</td>
+</tr>
+
+
+<tr>
+<td class="right">3</td>
+<td class="left">32T, 0.250" (1/4) Bore 32P Shaft Mount Pinion Gear</td>
+<td class="right">615254</td>
+</tr>
+
+
+<tr>
+<td class="right">1</td>
+<td class="left">32P, 32 Tooth, 24T C1 Spline Servo Mount Gear (Metal)</td>
+<td class="right">&#xa0;</td>
+</tr>
+
+
+<tr>
+<td class="right">3</td>
+<td class="left">C1 SPLINE SERVO TO 1/4" SHAFT COUPLER (SET SCREW)</td>
+<td class="right">525134</td>
+</tr>
+
+
+<tr>
+<td class="right">3</td>
+<td class="left">0.250" (1/4") X 2.50" (2-1/2") STAINLESS STEEL D-SHAFTING</td>
+<td class="right">634074</td>
+</tr>
+
+
+<tr>
+<td class="right">4</td>
+<td class="left">32 Pitch, 64 Tooth (.50" Bore) Aluminum Hub Gear</td>
+<td class="right">615194</td>
+</tr>
+
+
+<tr>
+<td class="right">1</td>
+<td class="left">6mm (0.770") Clamping Hub</td>
+<td class="right">545616</td>
+</tr>
+
+
+<tr>
+<td class="right">1</td>
+<td class="left">5mm (0.770") Clamping Hub</td>
+<td class="right">545612</td>
+</tr>
+
+
+<tr>
+<td class="right">1</td>
+<td class="left">4MM (0.770") CLAMPING HUB</td>
+<td class="right">545608</td>
+</tr>
+
+
+<tr>
+<td class="right">1</td>
+<td class="left">3MM (0.770") CLAMPING HUB</td>
+<td class="right">545604</td>
+</tr>
+</tbody>
+</table>
 
 ## Shopping list from Hobbylinc<a id="sec-2-4" name="sec-2-4"></a>
 

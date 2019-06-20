@@ -1,5 +1,11 @@
-* TODO investigate using pyicloud https://github.com/picklepete/pyicloud
-* TODO investigate using life360
+* CANCELED investigate using pyicloud https://github.com/picklepete/pyicloud
+  CLOSED: [2019-06-19 Wed 21:41]
+  - currently broken https://github.com/picklepete/pyicloud/issues/206
+  - check back later
+* WAITING investigate using life360
+  - seems promissing. Good app, works on both iOS and Android. API includes speed, driving stats, etc
+  - python API looks to be tied closly to homeassistant, about to become standard component in HA 0.95
+  - https://github.com/pnbruckner/homeassistant-config/blob/master/docs/life360.md
 * TODO add MQTT listener for state transitions
 * TODO outline code for Weasly Clock
  - geocomponent (HA zones)

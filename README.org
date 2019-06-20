@@ -14,6 +14,10 @@
 ** Case Design
   - To be determined..
   - build a custom cabinet or reuse an old Clock body
+** Clock hands
+  - goal is something like the metalic scissors w/ engraved names
+  - mounting could be with 3D printing with a built in clamp
+  - possibly use same Clamping Hubs as for the gears
 ** Related Projects for Inspiration
   - https://www.instructables.com/id/Build-Your-Own-Weasley-Location-Clock/
   - https://printableprops.jimdo.com/en/harry-potter/weasley-clock/
@@ -32,16 +36,18 @@
    - 5V 2A should be enough if motors aren't overloaded simutaneously https://www.adafruit.com/product/276
    - 5V 4A to hedge bets, or if you run more servso https://www.adafruit.com/product/1466
 ** Shopping list from Servo City
-  + 4 HS-785HB SERVO   SKU: 33785S
-  + 3 32T, 0.250" (1/4) Bore 32P Shaft Mount Pinion Gear SKU: 615254
-  + 1 32P, 32 Tooth, 24T C1 Spline Servo Mount Gear (Metal)
-  + 3 C1 SPLINE SERVO TO 1/4" SHAFT COUPLER (SET SCREW) SKU: 525134
-  + 3 0.250" (1/4") X 2.50" (2-1/2") STAINLESS STEEL D-SHAFTING SKU: 634074
-  + 4 32 Pitch, 64 Tooth (.50" Bore) Aluminum Hub Gear	615194
-  + 6mm (0.770") Clamping Hub   545616
-  + 5mm (0.770") Clamping Hub	545612
-  + 4MM (0.770") CLAMPING HUB SKU: 545608
-  + 3MM (0.770") CLAMPING HUB SKU: 545604
+  | Count | Description                                               |    SKU |
+  |-------+-----------------------------------------------------------+--------|
+  |     4 | HS-785HB SERVO                                            | 33785S |
+  |     3 | 32T, 0.250" (1/4) Bore 32P Shaft Mount Pinion Gear        | 615254 |
+  |     1 | 32P, 32 Tooth, 24T C1 Spline Servo Mount Gear (Metal)     |        |
+  |     3 | C1 SPLINE SERVO TO 1/4" SHAFT COUPLER (SET SCREW)         | 525134 |
+  |     3 | 0.250" (1/4") X 2.50" (2-1/2") STAINLESS STEEL D-SHAFTING | 634074 |
+  |     4 | 32 Pitch, 64 Tooth (.50" Bore) Aluminum Hub Gear          | 615194 |
+  |     1 | 6mm (0.770") Clamping Hub                                 | 545616 |
+  |     1 | 5mm (0.770") Clamping Hub                                 | 545612 |
+  |     1 | 4MM (0.770") CLAMPING HUB                                 | 545608 |
+  |     1 | 3MM (0.770") CLAMPING HUB                                 | 545604 |
 ** Shopping list from Hobbylinc
  +  https://www.hobbylinc.com/htm/k+s/k+s9821.htm
  + NOTE: checked items are a good set for a 4 hand clock. Theoretically
