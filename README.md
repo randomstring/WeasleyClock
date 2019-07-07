@@ -18,6 +18,7 @@
 <li><a href="#sec-2-3">2.3. Shopping list from Servo City</a></li>
 <li><a href="#sec-2-4">2.4. Shopping list from Hobbylinc</a></li>
 <li><a href="#sec-2-5">2.5. Notes on parts</a></li>
+<li><a href="#sec-2-6">2.6. Mouting poster to plywood</a></li>
 </ul>
 </li>
 </ul>
@@ -141,29 +142,29 @@ Build a working physical Weasley Clock from Harry Potter.
 
 
 <tr>
-<td class="right">1</td>
+<td class="right">2</td>
 <td class="left">6mm (0.770") Clamping Hub</td>
 <td class="right">545616</td>
 </tr>
 
 
 <tr>
-<td class="right">1</td>
+<td class="right">2</td>
 <td class="left">5mm (0.770") Clamping Hub</td>
 <td class="right">545612</td>
 </tr>
 
 
 <tr>
-<td class="right">1</td>
-<td class="left">4MM (0.770") CLAMPING HUB</td>
+<td class="right">2</td>
+<td class="left">4MM (0.770") Clamping Hub</td>
 <td class="right">545608</td>
 </tr>
 
 
 <tr>
-<td class="right">1</td>
-<td class="left">3MM (0.770") CLAMPING HUB</td>
+<td class="right">2</td>
+<td class="left">3MM (0.770") Clamping Hub</td>
 <td class="right">545604</td>
 </tr>
 </tbody>
@@ -203,3 +204,13 @@ Build a working physical Weasley Clock from Harry Potter.
     -   Stall current for HS-785HB is 1500mA. Max current 6A (at 5V?)
     -   No load current for HS-785HB is 230mA
     -   Idle current for HS-785HB is 9mA
+-   possible screws for attaching to clamping hubs? 6-32
+    -   SKU 91771A145  length 0.3125" (5/16")  <  0.333" = 0.25" (hub width) + 0.083" (screw head depth)
+    -   <https://www.servocity.com/6-32-flat-head-phillips-machine-screws>
+
+## Mouting poster to plywood<a id="sec-2-6" name="sec-2-6"></a>
+
+-   use Mod Podge water based glue to tack the poster to the wood clock face  
+    -   <https://www.amazon.com/Mod-Podge-CS11303-Waterbase-Sealer/dp/B0009ILH8C/>
+    -   <https://www.youtube.com/watch?v=Fa5UyNZCnWU>
+-   pre-mount wood "brackets" to back of plywood for ease of mounting clockwork and case
