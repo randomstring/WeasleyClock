@@ -44,10 +44,10 @@
   |     3 | C1 SPLINE SERVO TO 1/4" SHAFT COUPLER (SET SCREW)         | 525134 |
   |     3 | 0.250" (1/4") X 2.50" (2-1/2") STAINLESS STEEL D-SHAFTING | 634074 |
   |     4 | 32 Pitch, 64 Tooth (.50" Bore) Aluminum Hub Gear          | 615194 |
-  |     1 | 6mm (0.770") Clamping Hub                                 | 545616 |
-  |     1 | 5mm (0.770") Clamping Hub                                 | 545612 |
-  |     1 | 4MM (0.770") CLAMPING HUB                                 | 545608 |
-  |     1 | 3MM (0.770") CLAMPING HUB                                 | 545604 |
+  |     2 | 6mm (0.770") Clamping Hub                                 | 545616 |
+  |     2 | 5mm (0.770") Clamping Hub                                 | 545612 |
+  |     2 | 4MM (0.770") Clamping Hub                                 | 545608 |
+  |     2 | 3MM (0.770") Clamping Hub                                 | 545604 |
 ** Shopping list from Hobbylinc
  +  https://www.hobbylinc.com/htm/k+s/k+s9821.htm
  + NOTE: checked items are a good set for a 4 hand clock. Theoretically
@@ -79,3 +79,10 @@
    - Stall current for HS-785HB is 1500mA. Max current 6A (at 5V?)
    - No load current for HS-785HB is 230mA
    - Idle current for HS-785HB is 9mA
+ + possible screws for attaching to clamping hubs? 6-32
+   - SKU 91771A145  length 0.3125" (5/16")  <  0.333" = 0.25" (hub width) + 0.083" (screw head depth)
+   - https://www.servocity.com/6-32-flat-head-phillips-machine-screws
+** Mouting poster to plywood
+ + use Mod Podge water based glue to tack the poster to the wood clock face  
+   - https://www.amazon.com/Mod-Podge-CS11303-Waterbase-Sealer/dp/B0009ILH8C/
+   - https://www.youtube.com/watch?v=Fa5UyNZCnWU

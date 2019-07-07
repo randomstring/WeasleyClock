@@ -2,10 +2,12 @@
   CLOSED: [2019-06-19 Wed 21:41]
   - currently broken https://github.com/picklepete/pyicloud/issues/206
   - check back later
-* WAITING investigate using life360
+* DONE investigate using life360
+  CLOSED: [2019-07-07 Sun 12:33]
   - seems promissing. Good app, works on both iOS and Android. API includes speed, driving stats, etc
   - python API looks to be tied closly to homeassistant, about to become standard component in HA 0.95
   - https://github.com/pnbruckner/homeassistant-config/blob/master/docs/life360.md
+  - working with Home Assistant!
 * TODO add MQTT listener for state transitions
 * TODO outline code for Weasly Clock
  - geocomponent (HA zones)
@@ -15,8 +17,13 @@
  - clock listen for zone changes
  - script to send arbitrary zone changes to clock
  - demo script to randomize zone changes
-* TODO CAD model
+* TODO CAD model ??
  - get CAD for servos
  - CAD for gears, brass tubes, etc
  - generate 3d model for 3d printing the hands
-
+* TODO test mount a poster to plywood for practice.
+ - [ ] size of plywood/poster
+ - [ ] map out where to pre-mount woodblocks to the back for mounting
+* TODO shopping list
+ - [X] mod podge glue https://www.amazon.com/gp/product/B0009ILH8C/
+ - [ ] quality plywood for mounting poster
