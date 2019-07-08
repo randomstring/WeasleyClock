@@ -63,6 +63,13 @@ Build a working physical Weasley Clock from Harry Potter.
 ## Artwork<a id="sec-1-5" name="sec-1-5"></a>
 
 -   <https://minalima.com/product/the-weasley-family-clock/>
+-   clock face dimentions: 
+    -   width 9.75"
+    -   height of square face 9.5"
+    -   total height 13.5"
+    -   top semi-circle indentation: 1"
+    -   top semi-circle height: 4"
+    -   clock face radius: 4"
 
 # Shoppting list<a id="sec-2" name="sec-2"></a>
 
@@ -213,4 +220,5 @@ Build a working physical Weasley Clock from Harry Potter.
 -   use Mod Podge water based glue to tack the poster to the wood clock face  
     -   <https://www.amazon.com/Mod-Podge-CS11303-Waterbase-Sealer/dp/B0009ILH8C/>
     -   <https://www.youtube.com/watch?v=Fa5UyNZCnWU>
+    -   <https://www.manmadediy.com/3409-how-to-mount-posters-and-art-to-plywood-for-an-affordable-modern-look>
 -   pre-mount wood "brackets" to back of plywood for ease of mounting clockwork and case
