@@ -24,6 +24,8 @@
 * TODO test mount a poster to plywood for practice.
  - [ ] size of plywood/poster
  - [ ] map out where to pre-mount woodblocks to the back for mounting
-* TODO shopping list
+* DONE shopping list [100%]
+  CLOSED: [2019-07-10 Wed 13:38]
  - [X] mod podge glue https://www.amazon.com/gp/product/B0009ILH8C/
- - [ ] quality plywood for mounting poster
+ - [X] quality plywood for mounting poster
+

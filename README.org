@@ -33,6 +33,11 @@
      + top semi-circle indentation: 1"
      + top semi-circle height: 4"
      + clock face radius: 4"
+** Clockwork
+  - clockwork depth: 4.125" (behind the face)
+  - clockwork width: 6.625"
+  - clockwork hight: 3"
+  - hands depth:     2"     (with 0.125" clearance from glass)
 * Shoppting list
 ** Raspberry Pi
  + standard set of Raspberry pi requirements. Pi, power supply, SD card, case

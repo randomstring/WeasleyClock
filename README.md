@@ -9,6 +9,7 @@
 <li><a href="#sec-1-3">1.3. Clock hands</a></li>
 <li><a href="#sec-1-4">1.4. Related Projects for Inspiration</a></li>
 <li><a href="#sec-1-5">1.5. Artwork</a></li>
+<li><a href="#sec-1-6">1.6. Clockwork</a></li>
 </ul>
 </li>
 <li><a href="#sec-2">2. Shoppting list</a>
@@ -70,6 +71,13 @@ Build a working physical Weasley Clock from Harry Potter.
     -   top semi-circle indentation: 1"
     -   top semi-circle height: 4"
     -   clock face radius: 4"
+
+## Clockwork<a id="sec-1-6" name="sec-1-6"></a>
+
+-   clockwork depth: 4.125" (behind the face)
+-   clockwork width: 6.625"
+-   clockwork hight: 3"
+-   hands depth:     2"     (with 0.125" clearance from glass)
 
 # Shoppting list<a id="sec-2" name="sec-2"></a>
 
