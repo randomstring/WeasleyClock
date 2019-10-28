@@ -20,6 +20,7 @@
 <li><a href="#sec-2-4">2.4. Shopping list from Hobbylinc</a></li>
 <li><a href="#sec-2-5">2.5. Notes on parts</a></li>
 <li><a href="#sec-2-6">2.6. Mouting poster to plywood</a></li>
+<li><a href="#sec-2-7">2.7. Clock Body</a></li>
 </ul>
 </li>
 </ul>
@@ -31,6 +32,8 @@
 # Weasly clock<a id="sec-1" name="sec-1"></a>
 
 Build a working physical Weasley Clock from Harry Potter. 
+
+Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
 
 ## Design Goals/Plans<a id="sec-1-1" name="sec-1-1"></a>
 
@@ -44,8 +47,11 @@ Build a working physical Weasley Clock from Harry Potter.
 
 ## Case Design<a id="sec-1-2" name="sec-1-2"></a>
 
--   To be determined..
--   build a custom cabinet or reuse an old Clock body
+-   I decided to reuse an old grandfather/grandmother clock instead of
+    building a new case. I got lucky and found a perfect case at a
+    thrift shop. I needed the dimensions of the face to match the
+    artwork I have and the depth of the case needed to hold the servos
+    and new clockwork.
 
 ## Clock hands<a id="sec-1-3" name="sec-1-3"></a>
 
@@ -230,3 +236,7 @@ Build a working physical Weasley Clock from Harry Potter.
     -   <https://www.youtube.com/watch?v=Fa5UyNZCnWU>
     -   <https://www.manmadediy.com/3409-how-to-mount-posters-and-art-to-plywood-for-an-affordable-modern-look>
 -   pre-mount wood "brackets" to back of plywood for ease of mounting clockwork and case
+
+## Clock Body<a id="sec-2-7" name="sec-2-7"></a>
+
+-   Grandmother clock by Colonial MFG Co, Model 1866 $125 in a thrift store.

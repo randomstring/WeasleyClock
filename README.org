@@ -3,6 +3,8 @@
 
   Build a working physical Weasley Clock from Harry Potter. 
 
+  Photo album: https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5
+
 ** Design Goals/Plans
   - use a Raspberry Pi to control clock via servos and servo hat
   - physical hands, each moving independently
@@ -12,8 +14,11 @@
   - use live GPS data of family members
   - GPS updates from one or more of: iCloud, Owntracks, life360, local MQTT, and/or local network device scanning
 ** Case Design
-  - To be determined..
-  - build a custom cabinet or reuse an old Clock body
+  - I decided to reuse an old grandfather/grandmother clock instead of
+    building a new case. I got lucky and found a perfect case at a
+    thrift shop. I needed the dimensions of the face to match the
+    artwork I have and the depth of the case needed to hold the servos
+    and new clockwork.
 ** Clock hands
   - goal is something like the metalic scissors w/ engraved names
   - mounting could be with 3D printing with a built in clamp
@@ -100,3 +105,5 @@
    - https://www.youtube.com/watch?v=Fa5UyNZCnWU
    - https://www.manmadediy.com/3409-how-to-mount-posters-and-art-to-plywood-for-an-affordable-modern-look
  + pre-mount wood "brackets" to back of plywood for ease of mounting clockwork and case
+** Clock Body
+  - Grandmother clock by Colonial MFG Co, Model 1866 $125 in a thrift store.
