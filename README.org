@@ -99,6 +99,13 @@
  + possible screws for attaching to clamping hubs? 6-32
    - SKU 91771A145  length 0.3125" (5/16")  <  0.333" = 0.25" (hub width) + 0.083" (screw head depth)
    - https://www.servocity.com/6-32-flat-head-phillips-machine-screws
+** CAD Models of Parts
+
+Most of the parts from ServoCity.com have CAD models. I found a CAD
+model for the Servo on GrabCad.com (link above).
+
+I have collected all the available [CAD Files](CAD/library) in the [CAD](CAD) subdirectory.
+
 ** Mouting poster to plywood
  + use Mod Podge water based glue to tack the poster to the wood clock face  
    - https://www.amazon.com/Mod-Podge-CS11303-Waterbase-Sealer/dp/B0009ILH8C/
