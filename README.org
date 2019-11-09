@@ -109,10 +109,16 @@ I have collected all the available [CAD Files](CAD/library) in the
 the [ServoCity.com website](https://www.servocity.com/step-files).
 
 ** Mouting poster to plywood
- + use Mod Podge water based glue to tack the poster to the wood clock face  
+ + Use 3M Super 77 Spray Adhesive for mounting the clock face artwork. After some experimentation, I think
+this will be better than useing Mod Podge as I originally though. The
+3M product does not get as wet, and doesn't ahve to saturate the paper
+like the Mod Podge does. This leaves the face surface smoother, and
+doesn't require coating the front of the art to get good adhesion.
+ + Or use Mod Podge water based glue to tack the poster to the wood clock face  
    - https://www.amazon.com/Mod-Podge-CS11303-Waterbase-Sealer/dp/B0009ILH8C/
    - https://www.youtube.com/watch?v=Fa5UyNZCnWU
    - https://www.manmadediy.com/3409-how-to-mount-posters-and-art-to-plywood-for-an-affordable-modern-look
- + pre-mount wood "brackets" to back of plywood for ease of mounting clockwork and case
+ + The current clock body will allow me to hide the mounting screws
+   and make interchanging the face possible.
 ** Clock Body
   - Grandmother clock by Colonial MFG Co, Model 1866 $125 in a thrift store.
