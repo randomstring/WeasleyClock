@@ -235,7 +235,9 @@ Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
 Most of the parts from ServoCity.com have CAD models. I found a CAD
 model for the Servo on GrabCad.com (link above).
 
-I have collected all the available [CAD Files](CAD/library) in the [CAD](CAD) subdirectory.
+I have collected all the available [CAD Files](CAD/library) in the
+[CAD](CAD) subdirectory. For all the ServoCity CAD files, check out
+the [ServoCity.com website](<https://www.servocity.com/step-files>).
 
 ## Mouting poster to plywood<a id="sec-2-7" name="sec-2-7"></a>
 

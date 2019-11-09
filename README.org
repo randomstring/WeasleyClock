@@ -104,7 +104,9 @@
 Most of the parts from ServoCity.com have CAD models. I found a CAD
 model for the Servo on GrabCad.com (link above).
 
-I have collected all the available [CAD Files](CAD/library) in the [CAD](CAD) subdirectory.
+I have collected all the available [CAD Files](CAD/library) in the
+[CAD](CAD) subdirectory. For all the ServoCity CAD files, check out
+the [ServoCity.com website](https://www.servocity.com/step-files).
 
 ** Mouting poster to plywood
  + use Mod Podge water based glue to tack the poster to the wood clock face  
