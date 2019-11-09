@@ -2,7 +2,7 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#sec-1">1. Weasly clock</a>
+<li><a href="#sec-1">1. Weasley clock</a>
 <ul>
 <li><a href="#sec-1-1">1.1. Design Goals/Plans</a></li>
 <li><a href="#sec-1-2">1.2. Case Design</a></li>
@@ -12,7 +12,7 @@
 <li><a href="#sec-1-6">1.6. Clockwork</a></li>
 </ul>
 </li>
-<li><a href="#sec-2">2. Shoppting list</a>
+<li><a href="#sec-2">2. Shopping list</a>
 <ul>
 <li><a href="#sec-2-1">2.1. Raspberry Pi</a></li>
 <li><a href="#sec-2-2">2.2. Servo Hat</a></li>
@@ -20,7 +20,7 @@
 <li><a href="#sec-2-4">2.4. Shopping list from Hobbylinc</a></li>
 <li><a href="#sec-2-5">2.5. Notes on parts</a></li>
 <li><a href="#sec-2-6">2.6. CAD Models of Parts</a></li>
-<li><a href="#sec-2-7">2.7. Mouting poster to plywood</a></li>
+<li><a href="#sec-2-7">2.7. Mounting poster to plywood</a></li>
 <li><a href="#sec-2-8">2.8. Clock Body</a></li>
 </ul>
 </li>
@@ -30,7 +30,7 @@
 
 
 
-# Weasly clock<a id="sec-1" name="sec-1"></a>
+# Weasley clock<a id="sec-1" name="sec-1"></a>
 
 Build a working physical Weasley Clock from Harry Potter. 
 
@@ -56,7 +56,7 @@ Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
 
 ## Clock hands<a id="sec-1-3" name="sec-1-3"></a>
 
--   goal is something like the metalic scissors w/ engraved names
+-   goal is something like the metallic scissors w/ engraved names
 -   mounting could be with 3D printing with a built in clamp
 -   possibly use same Clamping Hubs as for the gears
 
@@ -71,7 +71,7 @@ Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
 ## Artwork<a id="sec-1-5" name="sec-1-5"></a>
 
 -   <https://minalima.com/product/the-weasley-family-clock/>
--   clock face dimentions: 
+-   clock face dimensions: 
     -   width 9.75"
     -   height of square face 9.5"
     -   total height 13.5"
@@ -83,10 +83,10 @@ Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
 
 -   clockwork depth: 4.125" (behind the face)
 -   clockwork width: 6.625"
--   clockwork hight: 3"
+-   clockwork height: 3"
 -   hands depth:     2"     (with 0.125" clearance from glass)
 
-# Shoppting list<a id="sec-2" name="sec-2"></a>
+# Shopping list<a id="sec-2" name="sec-2"></a>
 
 ## Raspberry Pi<a id="sec-2-1" name="sec-2-1"></a>
 
@@ -97,8 +97,8 @@ Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
 -   Raspberry Pi servo hat: <https://www.adafruit.com/product/2327>
     -   requires soldering
 -   Servo power, one of:
-    -   5V 2A should be enough if motors aren't overloaded simutaneously <https://www.adafruit.com/product/276>
-    -   5V 4A to hedge bets, or if you run more servso <https://www.adafruit.com/product/1466>
+    -   5V 2A should be enough if motors aren't overloaded simultaneously <https://www.adafruit.com/product/276>
+    -   5V 4A to hedge bets, or if you run more servos <https://www.adafruit.com/product/1466>
 
 ## Shopping list from Servo City<a id="sec-2-3" name="sec-2-3"></a>
 
@@ -236,15 +236,15 @@ Most of the parts from ServoCity.com have CAD models. I found a CAD
 model for the Servo on GrabCad.com (link above).
 
 I have collected all the available [CAD Files](CAD/library) in the
-[CAD](CAD) subdirectory. For all the ServoCity CAD files, check out
+[CAD](CAD) sub-directory. For all the ServoCity CAD files, check out
 the [ServoCity.com website](<https://www.servocity.com/step-files>).
 
-## Mouting poster to plywood<a id="sec-2-7" name="sec-2-7"></a>
+## Mounting poster to plywood<a id="sec-2-7" name="sec-2-7"></a>
 
 -   Use 3M Super 77 Spray Adhesive for mounting the clock face artwork. After some experimentation, I think
 
-this will be better than useing Mod Podge as I originally though. The
-3M product does not get as wet, and doesn't ahve to saturate the paper
+this will be better than using Mod Podge as I originally though. The
+3M product does not get as wet, and doesn't have to saturate the paper
 like the Mod Podge does. This leaves the face surface smoother, and
 doesn't require coating the front of the art to get good adhesion.
 -   Or use Mod Podge water based glue to tack the poster to the wood clock face  
