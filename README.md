@@ -19,8 +19,9 @@
 <li><a href="#sec-2-3">2.3. Shopping list from Servo City</a></li>
 <li><a href="#sec-2-4">2.4. Shopping list from Hobbylinc</a></li>
 <li><a href="#sec-2-5">2.5. Notes on parts</a></li>
-<li><a href="#sec-2-6">2.6. Mouting poster to plywood</a></li>
-<li><a href="#sec-2-7">2.7. Clock Body</a></li>
+<li><a href="#sec-2-6">2.6. CAD Models of Parts</a></li>
+<li><a href="#sec-2-7">2.7. Mouting poster to plywood</a></li>
+<li><a href="#sec-2-8">2.8. Clock Body</a></li>
 </ul>
 </li>
 </ul>
@@ -229,7 +230,14 @@ Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
     -   SKU 91771A145  length 0.3125" (5/16")  <  0.333" = 0.25" (hub width) + 0.083" (screw head depth)
     -   <https://www.servocity.com/6-32-flat-head-phillips-machine-screws>
 
-## Mouting poster to plywood<a id="sec-2-6" name="sec-2-6"></a>
+## CAD Models of Parts<a id="sec-2-6" name="sec-2-6"></a>
+
+Most of the parts from ServoCity.com have CAD models. I found a CAD
+model for the Servo on GrabCad.com (link above).
+
+I have collected all the available [CAD Files](CAD/library) in the [CAD](CAD) subdirectory.
+
+## Mouting poster to plywood<a id="sec-2-7" name="sec-2-7"></a>
 
 -   use Mod Podge water based glue to tack the poster to the wood clock face  
     -   <https://www.amazon.com/Mod-Podge-CS11303-Waterbase-Sealer/dp/B0009ILH8C/>
@@ -237,6 +245,6 @@ Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
     -   <https://www.manmadediy.com/3409-how-to-mount-posters-and-art-to-plywood-for-an-affordable-modern-look>
 -   pre-mount wood "brackets" to back of plywood for ease of mounting clockwork and case
 
-## Clock Body<a id="sec-2-7" name="sec-2-7"></a>
+## Clock Body<a id="sec-2-8" name="sec-2-8"></a>
 
 -   Grandmother clock by Colonial MFG Co, Model 1866 $125 in a thrift store.
