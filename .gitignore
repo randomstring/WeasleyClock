@@ -105,3 +105,4 @@ venv.bak/
 
 # emacs
 *~
+.DS_Store
