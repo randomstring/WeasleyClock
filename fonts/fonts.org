@@ -3,4 +3,9 @@
 ** https://www.fonts.com/font/international-typefounders-inc/caslon-antique  ($45)
 ** https://www.myfonts.com/fonts/ihof/p22-operina/corsivo/ ($25)
 ** http://www.crazydiamond.co.uk/wizardings/wizard.html
+* Fonts closely matching that of the Weasley Clock art
+** Morva https://www.fontspace.com/alit-design/morva
+** GiambattistaVsPetit https://www.fontspace.com/manfred-klein/giambattistavspetit
+** Modoni xt https://www.fontspace.com/manfred-klein/bodoni-xt
+** Orgreave https://www.fontspace.com/roger-white/orgreave
 
