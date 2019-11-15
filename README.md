@@ -22,11 +22,12 @@ Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
     artwork I have and the depth of the case needed to hold the servos
     and new clockwork.
 
-## Clock hands
+## Clock Hands
 
--   goal is something like the metallic scissors w/ engraved names
--   mounting could be with 3D printing with a built in clamp
--   possibly use same Clamping Hubs as for the gears
+- goal is something like the metallic scissors w/ engraved names
+- clock hands could either be 3D printed or possibly laser cut from metal
+- mounting could be with 3D printing with a built in clamp
+- possibly use same Clamping Hubs as for the gears, except they are very big and would make the clock face too bulky.
 
 ## Related Projects for Inspiration
 
@@ -64,7 +65,7 @@ integration](<https://www.home-assistant.io/integrations/life360/>) for
 detailed location tracking. For tracking finer locations around the
 house I am using the [Unifi
 integration](<https://www.home-assistant.io/integrations/unifi>) to
-montor which WiFi access point each family member is closest to.
+monitor which WiFi access point each family member is closest to.
 
 ![Home Assistant Weasley Clock](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/homeassistant.png)
 
@@ -77,7 +78,7 @@ Clock states:  home, garden, school, work, intransit, mortalperil, lost, error.
 -   mortalperil is triggered by life360 detecting speeds over 75 mph
 -   error is triggered if the life360 device tracker returns None type
 
-Example Home Assistant configrations can be found in the
+Example Home Assistant configurations can be found in the
 homeassistant/ directory.
 
 # Shopping list
