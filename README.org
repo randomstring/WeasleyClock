@@ -47,11 +47,11 @@
 ** Home Assistant
 I am using [Home Assistant](https://www.home-assistant.io/) for
 tracking and transmitting the location of my family members. To do
-this I am using the (Life360
-integration)[https://www.home-assistant.io/integrations/life360/] for
+this I am using the [Life360
+integration](https://www.home-assistant.io/integrations/life360/) for
 detailed location tracking. For tracking finer locations around the
-house I am using the (Unifi
-integration)[https://www.home-assistant.io/integrations/unifi] to
+house I am using the [Unifi
+integration](https://www.home-assistant.io/integrations/unifi) to
 montor which WiFi access point each family member is closest to.
 
 I'm including example Home Assistant YAML configuration code creating
@@ -61,7 +61,7 @@ Clock states:  home, garden, school, work, intransit, mortalperil, lost, error.
  * home/school/work/lost/intransit/lost states are determined by life360 location
  * garden state is based on which of the home WiFi access points is being used
  * mortalperil is triggered by life360 detecting speeds over 75 mph
- * error is triggered if the life360 device_tracker returns None type
+ * error is triggered if the life360 device tracker returns None type
 
 Example Home Assistant configrations can be found in the
 homeassistant/ directory.
