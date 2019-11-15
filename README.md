@@ -99,6 +99,8 @@ house I am using the [Unifi
 integration](<https://www.home-assistant.io/integrations/unifi>) to
 montor which WiFi access point each family member is closest to.
 
+\\![Home Assistant Weasley Clock](![img](//raw.githubusercontent.com/randomstring/WeasleyClock/master/images/homeassistant.png))
+
 I'm including example Home Assistant YAML configuration code creating
 a Weasley Clock sensor. This sensor will track a given user's Weasley
 Clock states:  home, garden, school, work, intransit, mortalperil, lost, error.
@@ -281,4 +283,4 @@ doesn't require coating the front of the art to get good adhesion.
 
 ## Clock Body<a id="sec-2-8" name="sec-2-8"></a>
 
--   Grandmother clock by Colonial MFG Co, Model 1866 $125 in a thrift store.
+-   Grandmother clock by Colonial MFG Co, Model 1866 $165 in a thrift store.
