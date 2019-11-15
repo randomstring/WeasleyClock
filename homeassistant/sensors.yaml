@@ -1,0 +1,77 @@
+  #
+  # Sensor Tracks the name of home WiFi Access Point (AP)
+  #
+  # This uses the unifi integration to query the unifi APs for their state.
+  #
+
+  - platform: template
+    sensors:
+      user1_home_ap:
+        entity_id: device_tracker.iphone
+        value_template: >-
+          {% set ap_mac_map = {
+            'DinningInWall':     '78:8A:20:00:00:00',
+            'DownstairsAP':      'FC:EC:DA:00:00:00',
+            'GardenAP':          'FC:EC:DA:01:00:00'
+          } -%}
+          {%- set device_name = 'iphone' %}
+          {%- set ns = namespace(ap='unknown') %}
+          {%- if not is_state('device_tracker.' ~ device_name, 'home') %}
+          {%-   set ns.ap = 'away' %}
+          {%- else %}
+          {%-   set mac = state_attr('device_tracker.' ~ device_name, 'ap_mac').upper() %}
+          {%-   for ap, ap_mac in ap_mac_map.items() %}
+          {%-     if ap_mac == mac %}
+          {%-       set ns.ap = ap -%}
+          {%-     endif %}
+          {%-   endfor %}
+          {%- endif %}
+          {{ ns.ap }}
+
+  #
+  # Sensor produces Weasley Clock states
+  #
+  #  home, garden, school, work, intransit, mortalperil, lost, error
+  # 
+  #  home/school/work/lost/intransit/lost is determined by life360 location
+  #  garden is based on which of the home WiFi access points is being used
+  #  mortalperil is triggered by life360 detecting speeds over 75
+  #  error is triggered if the life360 device_tracker returns None type
+  #  
+  - platform: template
+    sensors:
+      weasley_clock_user1:
+        entity_id:
+          - sensor.user1_home_ap
+          - device_tracker.life360_user1
+        value_template: >-
+          {%- set home_ap_sensor = 'sensor.user1_ap' %}
+          {%- set tracker = 'device_tracker.life360_user1' %}
+          {%- set ns = namespace(wc='lost') %}
+          {%- set state = states( tracker ) %}
+          {%- if not state %}
+          {%-   set ns.wc = 'error' %}
+          {%- elif state == 'home' %}
+          {%-   set home_ap = states( home_ap_sensor ) %}
+          {%-   if home_ap == 'GardenAP' %}
+          {%-       set ns.wc = 'garden' -%}
+          {%-   else %}
+          {%-       set ns.wc = 'home' -%}
+          {%-   endif %}
+          {%- elif state == 'moving' or state == 'driving' %}
+          {%-   set ns.wc = 'intransit'  %}
+          {%-   set speed  = state_attr( life360_name, 'speed') %}
+          {%-   if speed and speed > 75 %}
+          {%-     set ns.wc = 'mortalperil' %}
+          {%-   endif %}
+          {%- else %}
+          {%-   set place = state.lower() %}
+          {%-   if place == 'glacier peak high school' or place == 'valley view middle school'%}
+          {%-     set ns.wc = 'school' %}
+          {%-   elif place == 'work' %}
+          {%-     set ns.wc = 'work' %}
+          {%-   else %}
+          {%-     set ns.wc = 'lost' %}
+          {%-   endif %}
+          {%- endif -%}
+          {{ ns.wc }}
