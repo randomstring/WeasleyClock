@@ -90,7 +90,7 @@ Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
 
 ## Home Assistant<a id="sec-1-7" name="sec-1-7"></a>
 
-I am using (Home Assistant)[<https://www.home-assistant.io/>] for
+I am using [Home Assistant](<https://www.home-assistant.io/>) for
 tracking and transmitting the location of my family members. To do
 this I am using the (Life360
 integration)[<https://www.home-assistant.io/integrations/life360/>] for

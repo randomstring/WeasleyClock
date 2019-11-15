@@ -45,7 +45,7 @@
   - clockwork height: 3"
   - hands depth:     2"     (with 0.125" clearance from glass)
 ** Home Assistant
-I am using (Home Assistant)[https://www.home-assistant.io/] for
+I am using [Home Assistant](https://www.home-assistant.io/) for
 tracking and transmitting the location of my family members. To do
 this I am using the (Life360
 integration)[https://www.home-assistant.io/integrations/life360/] for
