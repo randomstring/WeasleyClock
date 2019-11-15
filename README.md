@@ -10,6 +10,7 @@
 <li><a href="#sec-1-4">1.4. Related Projects for Inspiration</a></li>
 <li><a href="#sec-1-5">1.5. Artwork</a></li>
 <li><a href="#sec-1-6">1.6. Clockwork</a></li>
+<li><a href="#sec-1-7">1.7. Home Assistant</a></li>
 </ul>
 </li>
 <li><a href="#sec-2">2. Shopping list</a>
@@ -86,6 +87,29 @@ Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
 -   clockwork width: 6.625"
 -   clockwork height: 3"
 -   hands depth:     2"     (with 0.125" clearance from glass)
+
+## Home Assistant<a id="sec-1-7" name="sec-1-7"></a>
+
+I am using (Home Assistant)[<https://www.home-assistant.io/>] for
+tracking and transmitting the location of my family members. To do
+this I am using the (Life360
+integration)[<https://www.home-assistant.io/integrations/life360/>] for
+detailed location tracking. For tracking finer locations around the
+house I am using the (Unifi
+integration)[<https://www.home-assistant.io/integrations/unifi>] to
+montor which WiFi access point each family member is closest to.
+
+I'm including example Home Assistant YAML configuration code creating
+a Weasley Clock sensor. This sensor will track a given user's Weasley
+Clock states:  home, garden, school, work, intransit, mortalperil, lost, error.
+
+-   home/school/work/lost/intransit/lost states are determined by life360 location
+-   garden state is based on which of the home WiFi access points is being used
+-   mortalperil is triggered by life360 detecting speeds over 75 mph
+-   error is triggered if the life360 device<sub>tracker</sub> returns None type
+
+Example Home Assistant configrations can be found in the
+homeassistant/ directory.
 
 # Shopping list<a id="sec-2" name="sec-2"></a>
 
