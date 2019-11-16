@@ -60,7 +60,7 @@
           {%-   endif %}
           {%- elif state == 'moving' or state == 'driving' %}
           {%-   set ns.wc = 'intransit'  %}
-          {%-   set speed  = state_attr( life360_name, 'speed') %}
+          {%-   set speed  = state_attr( tracker, 'speed') %}
           {%-   if speed and speed > 75 %}
           {%-     set ns.wc = 'mortalperil' %}
           {%-   endif %}
