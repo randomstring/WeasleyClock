@@ -6,7 +6,7 @@
 
   - platform: template
     sensors:
-      user1_home_ap:
+      home_ap_user1:
         entity_id: device_tracker.iphone
         value_template: >-
           {% set ap_mac_map = {
@@ -14,12 +14,12 @@
             'DownstairsAP':      'FC:EC:DA:00:00:00',
             'GardenAP':          'FC:EC:DA:01:00:00'
           } -%}
-          {%- set device_name = 'iphone' %}
+          {%- set tracker = 'device_tracker.user1_phone' %}
           {%- set ns = namespace(ap='unknown') %}
-          {%- if not is_state('device_tracker.' ~ device_name, 'home') %}
+          {%- if not is_state( tracker ) %}
           {%-   set ns.ap = 'away' %}
           {%- else %}
-          {%-   set mac = state_attr('device_tracker.' ~ device_name, 'ap_mac').upper() %}
+          {%-   set mac = state_attr( tracker , 'ap_mac').upper() %}
           {%-   for ap, ap_mac in ap_mac_map.items() %}
           {%-     if ap_mac == mac %}
           {%-       set ns.ap = ap -%}
@@ -42,10 +42,10 @@
     sensors:
       weasley_clock_user1:
         entity_id:
-          - sensor.user1_home_ap
+          - sensor.home_ap_user1
           - device_tracker.life360_user1
         value_template: >-
-          {%- set home_ap_sensor = 'sensor.user1_ap' %}
+          {%- set home_ap_sensor = 'sensor.home_ap_user1' %}
           {%- set tracker = 'device_tracker.life360_user1' %}
           {%- set ns = namespace(wc='lost') %}
           {%- set state = states( tracker ) %}
