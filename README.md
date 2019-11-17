@@ -7,7 +7,7 @@ Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
 ## Design
 
 1. Track location of family members
-   using [Life360](http://life360.com/) This service allows for
+   using [Life360](http://life360.com/). This service allows for
    realtime updates of each family member's location and speed.
 
 2. Use [Home Assistant](https://www.home-assistant.io/) as a clearning
