@@ -4,15 +4,39 @@ Build a working physical Weasley Clock from Harry Potter.
 
 Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
 
-## Design Goals/Plans
+## Design
 
--   use a Raspberry Pi to control clock via servos and servo hat
--   physical hands, each moving independently
--   four (4) physical hands, one for each family member
--   build my own clockwork
--   program in python
--   use live GPS data of family members
--   GPS updates from one or more of: iCloud, Owntracks, life360, local MQTT, and/or local network device scanning
+1. Track location of family members
+   using [Life360](http://life360.com/) This service allows for
+   realtime updates of each family member's location and speed.
+
+2. Use [Home Assistant](https://www.home-assistant.io/) as a clearning
+   house for family member location and movement within and around
+   home. Home assistant is hosted on a Raspberry Pi
+   running [Hass.io](https://www.home-assistant.io/hassio/).
+
+3. Create custom Home Assistant rules to calculate the Weasley Clock
+   state of each family member. Each state is visible from the Home
+   Assistant dashboard. Changes in clock state are transmitted to the
+   physical clock using the MQTT protocol over the network.
+
+4. Write
+   [custom software](https://github.com/randomstring/weasleyclockd) to
+   run on a Raspberry Pi that will monitor the MQTT message stream for
+   changes in clock state and update the physical clock hands to
+   match. This software will also add some flare to hand movement. For
+   example, the placement of the hand within each clock face sector
+   will be determined by the person's distance from home. This way,
+   you can tell if someone is far or near to home at a glance. You
+   might even be able to notice the progress of the person's dial
+   progressing towards home.
+
+5. Build a the physical clock with four hands. The clock will be
+   mounted into an old Grandfather clock. The face of the clock is
+   divided into eight equal sectors, each has a location/situations
+   label. These labels are: Home, Mortal Peril, Quidditch, Work,
+   School, Garden, In Transit, and Lost.
+
 
 ## Case Design
 
