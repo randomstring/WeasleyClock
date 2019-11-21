@@ -15,7 +15,7 @@
   action:
   - data:
       payload_template: '{ "state":"{{ states("sensor.weasley_clock_user1") }}","latitude":"{{
-        state_attr("device_tracker.life360_user1", "latitude" )}}", "longitude","{{
+        state_attr("device_tracker.life360_user1", "latitude" )}}", "longitude":"{{
         state_attr("device_tracker.life360_user1", "longitude" )}}" }'
       topic: weasleyclock/user1
     service: mqtt.publish
