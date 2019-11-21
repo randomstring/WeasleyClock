@@ -105,6 +105,14 @@ Clock states:  home, garden, school, work, intransit, mortalperil, lost, error.
 Example Home Assistant configurations can be found in the
 homeassistant/ directory.
 
+## Software
+
+I need a daemon running on the Raspberry Pi that controls the clock
+servos. For this I
+wrote [weasleyclockd](https://github.com/randomstring/weasleyclockd)
+that monitors the MQTT messages from Home Assistant and manages the
+physical clock movement.
+
 # Shopping list
 
 ## Raspberry Pi
