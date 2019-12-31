@@ -5,18 +5,24 @@
 # Weasley clock can adjust the location of the hands based on how far the
 # user is from home or maybe implement a seperate dial.
 #
-- id: '1573856600000'
-  alias: Weasley Clock
+# Updates are sent when the user's state changes and when the
+# weasleyclockd process connects to the Home Assistant MQTT server.
+# When weasleyclockd connects it sends an "UPDATE" message. This also
+# triggers an update.
+#
+- id: '001'
+  alias: Weasley Clock User1
   description: Send MQTT updates for changes in Weasley Clock state
   trigger:
   - entity_id: sensor.weasley_clock_user1
     platform: state
+  - platform: mqtt
+    topic: weasleyclock/UPDATE
   condition: []
   action:
   - data:
-      payload_template: '{ "state":"{{ states("sensor.weasley_clock_user1") }}","latitude":"{{
-        state_attr("device_tracker.life360_user1", "latitude" )}}", "longitude":"{{
-        state_attr("device_tracker.life360_user1", "longitude" )}}" }'
+      payload_template: '{"state":"{{ states("sensor.weasley_clock_user1") }}","latitude":"{{
+        state_attr("device_tracker.life360_user1", "latitude" )}}","longitude":"{{
+        state_attr("device_tracker.life360_user1", "longitude")}}"}'
       topic: weasleyclock/user1
     service: mqtt.publish
-    

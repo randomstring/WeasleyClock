@@ -53,7 +53,9 @@ Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
 - mounting could be with 3D printing with a built in clamp
 - possibly use same Clamping Hubs as for the gears, except they are very big and would make the clock face too bulky.
 
-## Related Projects for Inspiration
+- https://www.ebay.com/str/JRCLOCKER-Watches-and-Clocks/CLOCK-PARTS-ACCESSORIES/_i.html?_storecat=764376
+
+## Related Projects and Inspiration
 
 -   <https://www.instructables.com/id/Build-Your-Own-Weasley-Location-Clock/>
 -   <https://printableprops.jimdo.com/en/harry-potter/weasley-clock/>
@@ -61,6 +63,7 @@ Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
 -   <https://www.instagram.com/printableprops/>
 -   <https://fourierinformationsir.wordpress.com/2015/11/09/weasley-clock-update/>
 -   <https://twitter.com/wbtourlondon/status/765398939910627328?lang=mr>
+-   <https://www.youtube.com/playlist?list=PL86twtxo_L9TMY4A5TcG2nJcsyFx2CWhb>
 
 ## Artwork
 
