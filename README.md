@@ -37,6 +37,7 @@ Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
    label. These labels are: Home, Mortal Peril, Quidditch, Work,
    School, Garden, In Transit, and Lost.
 
+6. Re-use the chimes that came with the original clock.
 
 ## Case Design
 
@@ -64,6 +65,7 @@ Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
 -   <https://fourierinformationsir.wordpress.com/2015/11/09/weasley-clock-update/>
 -   <https://twitter.com/wbtourlondon/status/765398939910627328?lang=mr>
 -   <https://www.youtube.com/playlist?list=PL86twtxo_L9TMY4A5TcG2nJcsyFx2CWhb>
+-   <https://magicclock.de/>
 
 ## Artwork
 
@@ -75,6 +77,30 @@ Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
     -   top semi-circle indentation: 1"
     -   top semi-circle height: 4"
     -   clock face radius: 4"
+
+## Chimes
+
+- The grandmother/grandfather clock came with a set of chimes. I plan
+  to integrage them once I have the clock mechanism finished. I found
+  an example implementation.
+   - https://hackaday.io/project/10771-audible-notifications-by-a-grandfathers-clock
+   - https://github.com/borazslo/GPIOChimes
+   - https://www.theclockdepot.com/grandfather_clocks_manual.html
+   - http://dhenshaw.net/art/judge/start.html
+   - https://hackaday.com/2017/11/17/modernizing-a-170-year-old-antique-grandfather-clock/#more-281875
+   
+### Hardware Mounting Ideas
+
+Possibly drive with existing chime timing with a stepper
+motor. Possible hardware for attachting a motor to the existing chime
+mechanism.
+
+ - [Stepper motor - NEMA-17 size - 200 steps/rev, 12V 350mA](https://www.adafruit.com/product/324)
+ - [Stepper Motor Mount with Hardware - NEMA-17 Sized](https://www.adafruit.com/product/1297)
+ - [Aluminum Flex Shaft Coupler - 5mm to 5mm](https://www.adafruit.com/product/1175)
+ - [5mm Bore 32 Pitch, 16T Shaft Mount Pinion Gear](https://www.servocity.com/5mm-bore-32p-16t-shaft-mount-pinion-gears)
+ - [More 32 Pitch Shaft Mount Options](https://www.servocity.com/motion-components/rotary-motion/gears/shaft-mount-pinion-gears/32-pitch-shaft-mount-pinion-gears)
+
 
 ## Clockwork
 
@@ -287,3 +313,4 @@ doesn't require coating the front of the art to get good adhesion.
 ## Clock Body
 
 -   Grandmother clock by Colonial MFG Co, Model 1866 $165 in a thrift store.
+
