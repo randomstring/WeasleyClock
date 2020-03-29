@@ -5,7 +5,7 @@
 
 * <https://www.fonts.com/font/international-typefounders-inc/caslon-antique>  ($45)
 * <https://www.myfonts.com/fonts/ihof/p22-operina/corsivo/> ($25)
-* <http://www.crazydiamond.co.uk/wizardings/wizard.html>
+* <http://www.crazydiamond.co.uk/wizardings/wizard.html> ($36 for several fonts)
 
 
 # Fonts closely matching that of the Weasley Clock art
@@ -20,10 +20,23 @@ It turns out this first batch of fonts are all Serif, not good for clock hands.
 
 These following are San-Serif, and have a better chance at working in the clock hands.
 
+* Bordini <https://www.fontspace.com/bordini-font-f12460>
 * Belleza <https://www.fontspace.com/belleza-font-f17163>
 * Baar Sophia <https://www.fontspace.com/baar-sophia-font-f2019>
+* Dumbledor <https://www.fontspace.com/dumbledor-font-f4911>
 * <https://www.fontspace.com/average-sans-font-f16739>
 * <https://www.fontspace.com/aph-products>
 * <https://www.fontspace.com/bardon-font-f42993>
 * <https://www.fontspace.com/pen-culture>
+
+Gothic fonts for the Initial
+* https://www.fontspace.com/black-initial-text-font-f10028
+* https://www.fontspace.com/dumbledor-font-f4911
+* https://www.fontspace.com/aneirin-font-f1960
+* https://www.fontspace.com/alpine-font-f1948
+* https://www.fontspace.com/deutsch-gothic-font-f9877
+* https://www.fontspace.com/gourdie-gothic-black-font-f7450
+* https://www.fontspace.com/blackwood-castle-font-f1977
+* https://www.fontspace.com/wellsley-font-f9906
+* https://www.fontspace.com/canterbury-font-f1984 (hard to 3d print?)
 
