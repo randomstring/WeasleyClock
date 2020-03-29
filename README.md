@@ -49,12 +49,29 @@ Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
 
 ## Clock Hands
 
-- goal is something like the metallic scissors w/ engraved names
-- clock hands could either be 3D printed or possibly laser cut from metal
-- mounting could be with 3D printing with a built in clamp
-- possibly use same Clamping Hubs as for the gears, except they are very big and would make the clock face too bulky.
+Clock hands dimentions:
+- center-to-point: 88-92mm (so that the point does not obscure text)
+- width: 12-14mm (can vary, allow room for names)
+- thickness: 3mm (2mm was a little too thin)
+- max thickness around center hole: 4mm
 
-- https://www.ebay.com/str/JRCLOCKER-Watches-and-Clocks/CLOCK-PARTS-ACCESSORIES/_i.html?_storecat=764376
+Goals
+- Something like the metallic scissors w/ engraved names
+- clock hands could either be 3D printed or possibly laser cut from metal
+- mounting could be with 3D printing with a collet (clip)
+
+Resources:
+- https://www.bearwood.com/clock-hands-for-purchase.html
+- https://www.ebay.com/str/JRCLOCKER-Watches-and-Clocks
+- https://www.walnuthollow.com/store/clock-making/hands/
+- https://www.cmi-hermle.com/category/40-handnuts-hand-bushes
+- https://www.cmi-hermle.com/category/38-hands-mechanical
+- https://www.clockworks.com/clock-parts/clock-parts.html
+- https://www.mcmaster.com/flanged-bushings Flanged for mounting flat clock hands
+- https://timesavers.com/c-325673-clock-repair-replacement-parts-hands-related-hand-bushings.html
+- https://perrinwatchparts.com/collections/clock-hand-nuts/products/clock-parts-740191?variant=39071940047
+- The clips to connect hands to the shaft are called collets
+- http://www.m-p.co.uk/muk/parts/hands-collets.htm
 
 ## Related Projects and Inspiration
 
@@ -66,6 +83,7 @@ Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
 -   <https://twitter.com/wbtourlondon/status/765398939910627328?lang=mr>
 -   <https://www.youtube.com/playlist?list=PL86twtxo_L9TMY4A5TcG2nJcsyFx2CWhb>
 -   <https://magicclock.de/>
+-   <http://www.brettoliver.org.uk/Longcase_Clock/Longcase_Clock.htm>
 
 ## Artwork
 
@@ -88,6 +106,7 @@ Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
    - https://www.theclockdepot.com/grandfather_clocks_manual.html
    - http://dhenshaw.net/art/judge/start.html
    - https://hackaday.com/2017/11/17/modernizing-a-170-year-old-antique-grandfather-clock/#more-281875
+   - https://timesavers.com/c-1158662-clock-repair-replacement-parts-wheels-wheel-blanks-motion-works-fans-relate-center-wheels.html
    
 ### Hardware Mounting Ideas
 
@@ -100,6 +119,9 @@ mechanism.
  - [Aluminum Flex Shaft Coupler - 5mm to 5mm](https://www.adafruit.com/product/1175)
  - [5mm Bore 32 Pitch, 16T Shaft Mount Pinion Gear](https://www.servocity.com/5mm-bore-32p-16t-shaft-mount-pinion-gears)
  - [More 32 Pitch Shaft Mount Options](https://www.servocity.com/motion-components/rotary-motion/gears/shaft-mount-pinion-gears/32-pitch-shaft-mount-pinion-gears)
+ - [5mm Shaft Hub Mount](https://www.pololu.com/product/1203)
+ - [Belt and Pully?](https://www.adafruit.com/product/1253)
+ - [Brass Threaded Rod](https://www.mcmaster.com/threaded-rods)
 
 
 ## Clockwork
