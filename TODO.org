@@ -8,8 +8,10 @@
   - python API looks to be tied closly to homeassistant, about to become standard component in HA 0.95
   - https://github.com/pnbruckner/homeassistant-config/blob/master/docs/life360.md
   - working with Home Assistant!
-* TODO add MQTT listener for state transitions
-* TODO outline code for Weasly Clock
+* DONE add MQTT listener for state transitions
+  CLOSED: [2020-03-28 Sat 22:16]
+* DONE outline code for Weasly Clock
+  CLOSED: [2020-03-28 Sat 22:16]
  - geocomponent (HA zones)
  - map zones to clock state (HA zone -> clock zone)
    Home, In Transit, Lost, Garden, School, Work, Mortal Peril, Quidditch
@@ -17,11 +19,13 @@
  - clock listen for zone changes
  - script to send arbitrary zone changes to clock
  - demo script to randomize zone changes
-* TODO CAD model ??
+* CANCELED CAD model ??
+  CLOSED: [2020-03-28 Sat 22:16]
  - get CAD for servos
  - CAD for gears, brass tubes, etc
  - generate 3d model for 3d printing the hands
-* TODO test mount a poster to plywood for practice.
+* DONE test mount a poster to plywood for practice.
+  CLOSED: [2020-03-28 Sat 22:16]
  - [ ] size of plywood/poster
  - [ ] map out where to pre-mount woodblocks to the back for mounting
 * DONE shopping list [100%]
