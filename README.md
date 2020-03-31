@@ -60,6 +60,8 @@ Goals
 - clock hands could either be 3D printed or possibly laser cut from metal
 - mounting could be with 3D printing with a collet (clip)
 
+Here are the [fonts](fonts/Fonts.md) I evaluated for use on the hands.
+
 Resources:
 - https://www.bearwood.com/clock-hands-for-purchase.html
 - https://www.ebay.com/str/JRCLOCKER-Watches-and-Clocks

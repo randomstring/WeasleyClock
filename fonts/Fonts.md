@@ -20,8 +20,7 @@ It turns out this first batch of fonts are all Serif, not good for clock hands.
 
 These following are San-Serif, and have a better chance at working in the clock hands.
 
-* Bordini <https://www.fontspace.com/bordini-font-f12460>
-* Belleza <https://www.fontspace.com/belleza-font-f17163>
+* Belleza <https://www.fontspace.com/belleza-font-f17163> (Used this one!)
 * Baar Sophia <https://www.fontspace.com/baar-sophia-font-f2019>
 * Dumbledor <https://www.fontspace.com/dumbledor-font-f4911>
 * <https://www.fontspace.com/average-sans-font-f16739>
