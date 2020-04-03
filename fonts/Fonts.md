@@ -29,11 +29,11 @@ These following are San-Serif, and have a better chance at working in the clock 
 * <https://www.fontspace.com/pen-culture>
 
 Gothic fonts for the Initial
-* https://www.fontspace.com/black-initial-text-font-f10028
+* https://www.fontspace.com/black-initial-text-font-f10028 (used this one)
+* https://www.fontspace.com/deutsch-gothic-font-f9877 (and this one)
 * https://www.fontspace.com/dumbledor-font-f4911
 * https://www.fontspace.com/aneirin-font-f1960
 * https://www.fontspace.com/alpine-font-f1948
-* https://www.fontspace.com/deutsch-gothic-font-f9877
 * https://www.fontspace.com/gourdie-gothic-black-font-f7450
 * https://www.fontspace.com/blackwood-castle-font-f1977
 * https://www.fontspace.com/wellsley-font-f9906
