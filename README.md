@@ -8,9 +8,9 @@ Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
 
 1. Track location of family members
    using [Life360](http://life360.com/). This service allows for
-   realtime updates of each family member's location and speed.
+   real-time updates of each family member's location and speed.
 
-2. Use [Home Assistant](https://www.home-assistant.io/) as a clearning
+2. Use [Home Assistant](https://www.home-assistant.io/) as a clearing
    house for family member location and movement within and around
    home. Home assistant is hosted on a Raspberry Pi
    running [Hass.io](https://www.home-assistant.io/hassio/).
@@ -58,17 +58,17 @@ just like in the Harry Potter movies. The bottom of each hand has the
 person's initial. 
 
 I spent a long time trying to figure out how to secure the hands to
-the brass tube axels. I considered clamping hubs (too bulky), collets
+the brass tube axles. I considered clamping hubs (too bulky), collets
 (metal connectors traditional clock hands use), glue, and hot glue
 (this works well). In the end, by making the holes in the 3D printed
-hands stratigicly smaller, I was able to expand the holes with a file
+hands strategical smaller, I was able to expand the holes with a file
 so that they just fit. They were on tight enough to be secure. I did
 remove too much material from one of the hands and resorted to glue
 (E-6000) to keep it in place.
 
-### Dimentions
+### Dimensions
 
-Clock hands dimentions:
+Clock hands dimensions:
 - center-to-point: 88-92mm (so that the point does not obscure text)
 - width: 12-14mm (can vary, allow room for names)
 - thickness: 3mm (2mm was a little too thin)
@@ -125,7 +125,7 @@ Resources:
 ## Chimes
 
 - The grandmother/grandfather clock came with a set of chimes. I plan
-  to integrage them once I have the clock mechanism finished. I found
+  to integrate them once I have the clock mechanism finished. I found
   an example implementation.
    - https://hackaday.io/project/10771-audible-notifications-by-a-grandfathers-clock
    - https://github.com/borazslo/GPIOChimes
@@ -137,7 +137,7 @@ Resources:
 ### Hardware Mounting Ideas
 
 Possibly drive with existing chime timing with a stepper
-motor. Possible hardware for attachting a motor to the existing chime
+motor. Possible hardware for attaching a motor to the existing chime
 mechanism.
 
  - [Stepper motor - NEMA-17 size - 200 steps/rev, 12V 350mA](https://www.adafruit.com/product/324)
@@ -146,7 +146,7 @@ mechanism.
  - [5mm Bore 32 Pitch, 16T Shaft Mount Pinion Gear](https://www.servocity.com/5mm-bore-32p-16t-shaft-mount-pinion-gears)
  - [More 32 Pitch Shaft Mount Options](https://www.servocity.com/motion-components/rotary-motion/gears/shaft-mount-pinion-gears/32-pitch-shaft-mount-pinion-gears)
  - [5mm Shaft Hub Mount](https://www.pololu.com/product/1203)
- - [Belt and Pully?](https://www.adafruit.com/product/1253)
+ - [Belt and Pulley?](https://www.adafruit.com/product/1253)
  - [Brass Threaded Rod](https://www.mcmaster.com/threaded-rods)
 
 
