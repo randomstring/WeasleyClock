@@ -20,24 +20,28 @@ Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
    Assistant dashboard. Changes in clock state are transmitted to the
    physical clock using the MQTT protocol over the network.
 
-4. Write
+4. Wrote
    [custom software](https://github.com/randomstring/weasleyclockd) to
-   run on a Raspberry Pi that will monitor the MQTT message stream for
+   run on a Raspberry Pi that monitors the MQTT message stream for
    changes in clock state and update the physical clock hands to
-   match. This software will also add some flare to hand movement. For
+   match. This software also adds some flare to hand movement. For
    example, the placement of the hand within each clock face sector
    will be determined by the person's distance from home. This way,
    you can tell if someone is far or near to home at a glance. You
    might even be able to notice the progress of the person's dial
    progressing towards home.
 
-5. Build a the physical clock with four hands. The clock will be
-   mounted into an old Grandfather clock. The face of the clock is
-   divided into eight equal sectors, each has a location/situations
-   label. These labels are: Home, Mortal Peril, Quidditch, Work,
-   School, Garden, In Transit, and Lost.
+5. Built a physical clock with four hands. The clock is mounted into
+   an old Grandfather clock. The face of the clock is divided into
+   eight equal sectors, each has a location/situations label. These
+   labels are: Home, Mortal Peril, Quidditch, Work, School, Garden, In
+   Transit, and Lost.
 
-6. Re-use the chimes that came with the original clock.
+6. The next phase will be to reuse the chimes that came with the
+   original clock. The chimes can be alerts to noteworthy changes in
+   the clock's state. Say announce someone's arrival back home. The
+   current plan is to use a stepper motor to drive the existing chime
+   mechanism.
 
 ## Case Design
 
@@ -49,16 +53,36 @@ Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
 
 ## Clock Hands
 
+Hands are 3D printed with the name of each family member on the hands,
+just like in the Harry Potter movies. The bottom of each hand has the
+person's initial. 
+
+I spent a long time trying to figure out how to secure the hands to
+the brass tube axels. I considered clamping hubs (too bulky), collets
+(metal connectors traditional clock hands use), glue, and hot glue
+(this works well). In the end, by making the holes in the 3D printed
+hands stratigicly smaller, I was able to expand the holes with a file
+so that they just fit. They were on tight enough to be secure. I did
+remove too much material from one of the hands and resorted to glue
+(E-6000) to keep it in place.
+
+### Dimentions
+
 Clock hands dimentions:
 - center-to-point: 88-92mm (so that the point does not obscure text)
 - width: 12-14mm (can vary, allow room for names)
 - thickness: 3mm (2mm was a little too thin)
 - max thickness around center hole: 4mm
 
+### Clock Hand Ideas
+
+This section is a collection of ideas on other ways to create custom
+hands or make use of antique clock hands.
+
 Goals
+- mounting could be with 3D printing with a collet (clip)
 - Something like the metallic scissors w/ engraved names
 - clock hands could either be 3D printed or possibly laser cut from metal
-- mounting could be with 3D printing with a collet (clip)
 
 Here are the [fonts](fonts/Fonts.md) I evaluated for use on the hands.
 
