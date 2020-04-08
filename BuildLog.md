@@ -25,6 +25,14 @@ Document software
  * python daemon
 
 
+## 2020-04-01 Magic Wands
+
+Had the thought that I could create a replica Harry Potter magic wand
+with a strong magnet in the tip and install a few magnetic reed
+switches inside the clock. I coul then pull out the want and tap the
+clock to trigger events. This would be a cool way to trigger a 'Demo
+Mode'.
+
 ## 2020-04-04 MOTD
 
 Added a Harry Potter Themed message of the day.
@@ -36,11 +44,11 @@ Added a Harry Potter Themed message of the day.
 Thanks to my son's CAD design work for the clock hands, I now have a
 fully working Weasley clock. The clock is now installed in the kitchen.
 
-## 2020-04-06 Garden Isn't Accurate
+## 2020-04-06 Make Garden Accurate
 
 Because the WiFi Access Point that I have reserved for outside is
 still inside near the front door, the clock will oscillate a person
-between 'Gaarden' and 'Home' if they walk through the front of the
+between 'Garden' and 'Home' if they walk through the front of the
 house. I needed to install the AP outside, near the garden. I've been
 putting this off as it wasn't on the critical path, until now.
 
