@@ -2,7 +2,14 @@
 
 Build a working physical Weasley Clock from Harry Potter. 
 
+**Note:** This project is feature complete. It is still an active
+project as I perfect and improve it.
+
 Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
+
+Working on converting some parts of this 'README' to a [Build
+Log](BuildLog.md) to make the build process easier to follow. This
+'README' will then document the features of the clock.
 
 ## Design
 
@@ -45,11 +52,10 @@ Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
 
 ## Case Design
 
--   I decided to reuse an old grandfather/grandmother clock instead of
-    building a new case. I got lucky and found a perfect case at a
-    thrift shop. I needed the dimensions of the face to match the
-    artwork I have and the depth of the case needed to hold the servos
-    and new clockwork.
+I decided to reuse an old grandfather/grandmother clock instead of
+building a new case. I got lucky and found a perfect case at a thrift
+shop. I needed the dimensions of the face to match the artwork I have
+and the depth of the case needed to hold the servos and new clockwork.
 
 ## Clock Hands
 

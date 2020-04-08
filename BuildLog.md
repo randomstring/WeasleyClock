@@ -5,6 +5,25 @@ complete. Should have started from the beginning. Entry prior to April
 2020 are written retrospectively.
 
 
+## TODO 
+
+Much of this could be pieced together from the changelog of this
+GitHub repo, but writing out my design choices would be better.
+
+Write up major design process and decisions:
+ * location tracking: life360 vs iphone
+ * servos vs stepper motor vs motor and encoder
+ * soldering servo HAT
+ * finding nesting brass rods and mounting hubs
+ * clock body
+ * mounting the hands
+ * creating hands
+
+Document software
+ * homeassistant
+ * MQTT
+ * python daemon
+
 
 ## 2020-04-04 MOTD
 
