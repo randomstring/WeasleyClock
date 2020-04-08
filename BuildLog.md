@@ -30,8 +30,8 @@ Document software
 Had the thought that I could create a replica Harry Potter magic wand
 with a strong magnet in the tip and install a few magnetic reed
 switches inside the clock. I coul then pull out the want and tap the
-clock to trigger events. This would be a cool way to trigger a 'Demo
-Mode'.
+clock to trigger events. This would be a cool way to trigger a `Demo
+Mode`.
 
 ## 2020-04-04 MOTD
 
@@ -48,7 +48,7 @@ fully working Weasley clock. The clock is now installed in the kitchen.
 
 Because the WiFi Access Point that I have reserved for outside is
 still inside near the front door, the clock will oscillate a person
-between 'Garden' and 'Home' if they walk through the front of the
+between `Garden` and `Home` if they walk through the front of the
 house. I needed to install the AP outside, near the garden. I've been
 putting this off as it wasn't on the critical path, until now.
 
@@ -68,7 +68,7 @@ Ran another Cat 6 cable to power the Unifi G3 camera. I managed to get
 the custom Cat 6 cable crimped correctly on the first try. One
 Ethernet jack was crimped while standing on a ladder. #winning
 
-Started writing 'mqtt_script.py' a python program to send a scripted
+Started writing `mqtt_script.py` a python program to send a scripted
 sequence of MQTT messages. I plan to use this to create demonstrations
 of what the Weasley Clock can do. The script should have other uses as
 well since it is not project specific and can send arbitrary MQTT
