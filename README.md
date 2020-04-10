@@ -117,38 +117,7 @@ so that they just fit. They were on tight enough to be secure. I did
 remove too much material from one of the hands and resorted to glue
 (E-6000) to keep it in place.
 
-### Dimensions
-
-Clock hands dimensions:
-- center-to-point: 88-92mm (so that the point does not obscure text)
-- width: 12-14mm (can vary, allow room for names)
-- thickness: 3mm (2mm was a little too thin)
-- max thickness around center hole: 4mm
-
-### Clock Hand Ideas
-
-This section is a collection of ideas on other ways to create custom
-hands or make use of antique clock hands.
-
-Goals
-- mounting could be with 3D printing with a collet (clip)
-- Something like the metallic scissors w/ engraved names
-- clock hands could either be 3D printed or possibly laser cut from metal
-
 Here are the [fonts](fonts/Fonts.md) I evaluated for use on the hands.
-
-Resources:
-- https://www.bearwood.com/clock-hands-for-purchase.html
-- https://www.ebay.com/str/JRCLOCKER-Watches-and-Clocks
-- https://www.walnuthollow.com/store/clock-making/hands/
-- https://www.cmi-hermle.com/category/40-handnuts-hand-bushes
-- https://www.cmi-hermle.com/category/38-hands-mechanical
-- https://www.clockworks.com/clock-parts/clock-parts.html
-- https://www.mcmaster.com/flanged-bushings Flanged for mounting flat clock hands
-- https://timesavers.com/c-325673-clock-repair-replacement-parts-hands-related-hand-bushings.html
-- https://perrinwatchparts.com/collections/clock-hand-nuts/products/clock-parts-740191?variant=39071940047
-- The clips to connect hands to the shaft are called collets
-- http://www.m-p.co.uk/muk/parts/hands-collets.htm
 
 ## Related Projects and Inspiration
 
@@ -175,38 +144,9 @@ Resources:
 
 ## Chimes
 
-- The grandmother/grandfather clock came with a set of chimes. I plan
-  to integrate them once I have the clock mechanism finished. I found
-  an example implementation.
-   - https://hackaday.io/project/10771-audible-notifications-by-a-grandfathers-clock
-   - https://github.com/borazslo/GPIOChimes
-   - https://www.theclockdepot.com/grandfather_clocks_manual.html
-   - http://dhenshaw.net/art/judge/start.html
-   - https://hackaday.com/2017/11/17/modernizing-a-170-year-old-antique-grandfather-clock/#more-281875
-   - https://timesavers.com/c-1158662-clock-repair-replacement-parts-wheels-wheel-blanks-motion-works-fans-relate-center-wheels.html
+The grandmother/grandfather clock came with a set of chimes. I plan to
+integrate them once I have the clock mechanism finished. I started a new project to research and docuent this build: [Weasley Chimes](https://github.com/randomstring/WeasleyChimes/).
    
-### Hardware Mounting Ideas
-
-Possibly drive with existing chime timing with a stepper
-motor. Possible hardware for attaching a motor to the existing chime
-mechanism.
-
- - [Stepper motor - NEMA-17 size - 200 steps/rev, 12V 350mA](https://www.adafruit.com/product/324)
- - [Stepper Motor Mount with Hardware - NEMA-17 Sized](https://www.adafruit.com/product/1297)
- - [Aluminum Flex Shaft Coupler - 5mm to 5mm](https://www.adafruit.com/product/1175)
- - [5mm Bore 32 Pitch, 16T Shaft Mount Pinion Gear](https://www.servocity.com/5mm-bore-32p-16t-shaft-mount-pinion-gears)
- - [More 32 Pitch Shaft Mount Options](https://www.servocity.com/motion-components/rotary-motion/gears/shaft-mount-pinion-gears/32-pitch-shaft-mount-pinion-gears)
- - [5mm Shaft Hub Mount](https://www.pololu.com/product/1203)
- - [Belt and Pulley?](https://www.adafruit.com/product/1253)
- - [Brass Threaded Rod](https://www.mcmaster.com/threaded-rods)
-
-
-## Clockwork
-
--   clockwork depth: 4.125" (behind the face)
--   clockwork width: 6.625"
--   clockwork height: 3"
--   hands depth:     2"     (with 0.125" clearance from glass)
 
 ## Home Assistant
 
@@ -225,13 +165,11 @@ I'm including example Home Assistant YAML configuration code creating
 a Weasley Clock sensor. This sensor will track a given user's Weasley
 Clock states:  home, garden, school, work, intransit, mortalperil, lost, error.
 
--   home/school/work/lost/intransit/lost states are determined by life360 location
--   garden state is based on which of the home WiFi access points is being used
--   mortalperil is triggered by life360 detecting speeds over 75 mph
--   error is triggered if the life360 device tracker returns None type
-
 Example Home Assistant configurations can be found in the
-homeassistant/ directory.
+homeassistant directory. 
+ * [automations.yaml](homeassistant/automations.yaml)
+ * [sensors.yaml](homeassistant/sensors.yaml)
+ 
 
 ## Software
 

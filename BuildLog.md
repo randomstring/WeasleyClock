@@ -127,3 +127,52 @@ Worked on cleaning up documentation.
 
 * test painting hands with metalic paint
 * create code/algorithm to reliably detect when people ar bicycling for the Quidditch state
+
+
+# Specification
+
+Assorted measurements and specifications for parts. Pulling this out
+of the README to reduce clutter in the README.
+
+## Clock Hand Dimensions
+
+Clock hands dimensions:
+
+- center-to-point: 88-92mm (so that the point does not obscure text)
+- width: 12-14mm (can vary, allow room for names)
+- thickness: 3mm (2mm was a little too thin)
+- max thickness around center hole: 4mm
+
+## Clockwork Dimentions
+
+- clockwork depth: 4.125" (behind the face)
+- clockwork width: 6.625"
+- clockwork height: 3"
+- hands depth:     2"     (with 0.125" clearance from glass)
+
+
+## Clock Hand Ideas
+
+This section is a collection of ideas on other ways to create custom
+hands or make use of antique clock hands.
+
+Goals
+- mounting could be with 3D printing with a collet (clip)
+- Something like the metallic scissors w/ engraved names
+- clock hands could either be 3D printed or possibly laser cut from metal
+
+Here are the [fonts](fonts/Fonts.md) I evaluated for use on the hands.
+
+Resources:
+- https://www.bearwood.com/clock-hands-for-purchase.html
+- https://www.ebay.com/str/JRCLOCKER-Watches-and-Clocks
+- https://www.walnuthollow.com/store/clock-making/hands/
+- https://www.cmi-hermle.com/category/40-handnuts-hand-bushes
+- https://www.cmi-hermle.com/category/38-hands-mechanical
+- https://www.clockworks.com/clock-parts/clock-parts.html
+- https://www.mcmaster.com/flanged-bushings Flanged for mounting flat clock hands
+- https://timesavers.com/c-325673-clock-repair-replacement-parts-hands-related-hand-bushings.html
+- https://perrinwatchparts.com/collections/clock-hand-nuts/products/clock-parts-740191?variant=39071940047
+- The clips to connect hands to the shaft are called collets
+- http://www.m-p.co.uk/muk/parts/hands-collets.htm
+
