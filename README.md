@@ -9,9 +9,7 @@ project as I perfect and improve it.
 
 Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
 
-Working on converting some parts of this 'README' to a [Build
-Log](BuildLog.md) to make the build process easier to follow. This
-'README' will then document the features of the clock.
+Details of the build can be found in my [Build Log](BuildLog.md).
 
 ## Design
 

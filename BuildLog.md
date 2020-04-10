@@ -1,21 +1,23 @@
 # Build Log
 
-Started this log after getting the Weasley Clock feature
-complete. Should have started from the beginning. Entry prior to April
-2020 are written retrospectively.
+I started this log after getting the Weasley Clock feature complete. I
+should have started from the beginning. Entries prior to April 2020
+are written retrospectively.
 
+# TODO: Build
 
-## TODO 
+* test painting hands with metallic paint
+* create code/algorithm to reliably detect when people are bicycling for the Quidditch state
+
+## TODO: Documentation
 
 Much of this could be pieced together from the change-log of this
 GitHub repo, but writing out my design choices would be better.
 
 Write up major design process and decisions:
- * location tracking: life360 vs iPhone
  * servos vs stepper motor vs motor and encoder
  * soldering servo HAT
  * finding nesting brass rods and mounting hubs
- * clock body
  * mounting the hands
  * creating hands
 
@@ -23,7 +25,6 @@ Document software
  * Home Assistant
  * MQTT
  * python daemon
-
 
 ## Why Home Assistant?
 
@@ -38,7 +39,7 @@ Home Assistant is open source and strives to keep all control local
 After over a year of tinkering with Home Assistant, I feel like I've
 only scratched the surface of what it's capable of.
 
-## Why Life360
+## Why Life360?
 
 I tried the Home Assistant Apple iCloud integration first. The iCloud
 API does not seem to be a fully supported and endorsed API. The Home
@@ -51,7 +52,7 @@ from all my family members to use it. Which makes all of this possible.
 
 Another point is that it works on both iPhones and Android phones.
 
-## Why MQTT
+## Why MQTT?
 
 MQTT is fairly easy to use, can generate arbitrary messages (I use
 JSON for the payload), and has extensive support in Home Assistant.
@@ -59,12 +60,13 @@ JSON for the payload), and has extensive support in Home Assistant.
 Using python the [Paho MQTT](https://pypi.org/project/paho-mqtt/)
 module.
 
-## Clock Body
+## Clock Body Details
 
 I reused the original wood where possible to keep the aged look of the
 clock. When I needed to use new wood I stained it to match.
 
 I tried to use as much brass hardware as possible.
+
 
 # Diary
 
@@ -162,11 +164,6 @@ The clock now registers me in the state Quidditch whenever I'm
 actively riding on Zwift.
 
 Worked on cleaning up documentation.
-
-# TODO
-
-* test painting hands with metallic paint
-* create code/algorithm to reliably detect when people are bicycling for the Quidditch state
 
 
 # Specification
