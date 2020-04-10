@@ -52,7 +52,7 @@ Log](BuildLog.md) to make the build process easier to follow. This
 
 ## Clock Face and Meaning of Sectors
 
-![Weasley Clock Face](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/WeasleyClockFace.jpg)
+![Weasley Clock Face](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/WeasleyClockFace.jpeg)
 
 What each sector of the clock face mean:
 
