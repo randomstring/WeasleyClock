@@ -121,6 +121,11 @@ Here are the [fonts](fonts/Fonts.md) I evaluated for use on the hands.
 
 ## Related Projects and Inspiration
 
+Over the course of this build I spent a fair amount of time
+researching how others have attempted to build a Weasley Clock. The
+most complete and authentic build I've found is by [Printable
+Props](https://www.instagram.com/printableprops/).
+
 -   <https://www.instructables.com/id/Build-Your-Own-Weasley-Location-Clock/>
 -   <https://printableprops.jimdo.com/en/harry-potter/weasley-clock/>
 -   <https://www.facebook.com/PrintableProps/>
@@ -133,14 +138,18 @@ Here are the [fonts](fonts/Fonts.md) I evaluated for use on the hands.
 
 ## Artwork
 
--   <https://minalima.com/product/the-weasley-family-clock/>
--   clock face dimensions: 
-    -   width 9.75"
-    -   height of square face 9.5"
-    -   total height 13.5"
-    -   top semi-circle indentation: 1"
-    -   top semi-circle height: 4"
-    -   clock face radius: 4"
+I looked around on the internet and there are two styles of faces for
+the Weasley clock that appear in the Harry Potter movies. The first
+style comes up more often, and it is easier to replicate. It also has
+some sectors like "Prison" that I hope to never need.
+
+![Weasley Clock Style 1](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/Weasley_clock_style1.png)
+
+However, I prefered the second simpler style.
+
+![Weasley Clock Style 1](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/Weasley_clock_style1.png)
+
+As luck would have it, [Minalima](<https://minalima.com/), artists of this style sell officially licensed [posters of the Weasley Clock](https://minalima.com/product/the-weasley-family-clock/).
 
 ## Chimes
 

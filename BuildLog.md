@@ -7,11 +7,11 @@ complete. Should have started from the beginning. Entry prior to April
 
 ## TODO 
 
-Much of this could be pieced together from the changelog of this
+Much of this could be pieced together from the change-log of this
 GitHub repo, but writing out my design choices would be better.
 
 Write up major design process and decisions:
- * location tracking: life360 vs iphone
+ * location tracking: life360 vs iPhone
  * servos vs stepper motor vs motor and encoder
  * soldering servo HAT
  * finding nesting brass rods and mounting hubs
@@ -20,7 +20,7 @@ Write up major design process and decisions:
  * creating hands
 
 Document software
- * homeassistant
+ * Home Assistant
  * MQTT
  * python daemon
 
@@ -40,8 +40,8 @@ only scratched the surface of what it's capable of.
 
 ## Why Life360
 
-I tried the Home Assistant Apple iCloud integration first. The iClould
-API does not seem to be a fully supprted and endorsed API. The Home
+I tried the Home Assistant Apple iCloud integration first. The iCloud
+API does not seem to be a fully supported and endorsed API. The Home
 Assistant integration broke for me at least twice. Once when Apple
 changed some details in their authentication.
 
@@ -49,7 +49,7 @@ The Life360 integration has been quite stable and has features
 designed around tracking family members. I also managed to get buy-in
 from all my family members to use it. Which makes all of this possible. 
 
-Another point is that it works on both iPhones and Andoid phones.
+Another point is that it works on both iPhones and Android phones.
 
 ## Why MQTT
 
@@ -71,30 +71,30 @@ I tried to use as much brass hardware as possible.
 ## 2019-10-24 Thrift Store Gold!
 
 I had been thinking (and worrying) about how I was going to enclose
-the Wheasley Clock. I was thinking of building a custom housing for it
+the Weasley Clock. I was thinking of building a custom housing for it
 and mount it to the wall. This would have required improving my crude
 woodworking skills.
 
 Then I spotted this Grandfather clock in a thrift store in Langley,
 Washington. I had actually spotted this exact clock two months prior
-on a visit to Widbey Island. At the time, I didn't have the
+on a visit to Whidbey Island. At the time, I didn't have the
 measurements for the artwork and no way to tell if everything would
 fit. I was also traveling with my wife, for whom the clock was a
-suprise presant, so I chose to be descrete and not start measuring the
+surprise present, so I chose to be discrete and not start measuring the
 clock on the spot.
 
-Apon returning home, I measure the clockwork and artwork so I could
+Upon returning home, I measure the clockwork and artwork so I could
 identify old clocks that would fit. I did some searching on eBay.com
 for possible candidates, however working clocks were expensive and
 virtually all could not be shipped. Finding the perfect clock in
-Florida avaiable for pick up only wasn't an option.
+Florida available for pick up only wasn't an option.
 
 Fate had me returning to Langley two months later and I went straight
 to the thrift shop. The clock was still there, and the price had come
 down $85. A few quick measurements later and I was positive I had a
 good fit.
 
-My wife was currious at my need to purchase the clock, but kept her
+My wife was curious at my need to purchase the clock, but kept her
 curiosity in check as she knew it had something to with a surprise for
 her.
 
@@ -105,7 +105,7 @@ Grandmother clock by Colonial MFG Co, Model 1866 $165 in a thrift store.
 
 Had the thought that I could create a replica Harry Potter magic wand
 with a strong magnet in the tip and install a few magnetic reed
-switches inside the clock. I coul then pull out the want and tap the
+switches inside the clock. I could then pull out the want and tap the
 clock to trigger events. This would be a cool way to trigger a `Demo
 Mode`.
 
@@ -165,8 +165,8 @@ Worked on cleaning up documentation.
 
 # TODO
 
-* test painting hands with metalic paint
-* create code/algorithm to reliably detect when people ar bicycling for the Quidditch state
+* test painting hands with metallic paint
+* create code/algorithm to reliably detect when people are bicycling for the Quidditch state
 
 
 # Specification
@@ -183,13 +183,22 @@ Clock hands dimensions:
 - thickness: 3mm (2mm was a little too thin)
 - max thickness around center hole: 4mm
 
-## Clockwork Dimentions
+## Clockwork Dimensions
 
 - clockwork depth: 4.125" (behind the face)
 - clockwork width: 6.625"
 - clockwork height: 3"
 - hands depth:     2"     (with 0.125" clearance from glass)
 
+## Clock Face Dimensions
+
+Clock face dimensions: 
+    -   width 9.75"
+    -   height of square face 9.5"
+    -   total height 13.5"
+    -   top semi-circle indentation: 1"
+    -   top semi-circle height: 4"
+    -   clock face radius: 4"
 
 ## Clock Hand Ideas
 
