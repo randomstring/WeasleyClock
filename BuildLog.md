@@ -25,6 +25,23 @@ Document software
  * python daemon
 
 
+## Why Home Assistant?
+
+
+
+## Why Life360
+
+I tried the Home Assistant Apple iCloud integration first. The iClould
+API does not seem to be a fully supprted and endorsed API. The Home
+Assistant integration broke for me at least twice. Once when Apple
+changed some details in their authentication.
+
+The Life360 integration has been quite stable and has features
+designed around tracking family members. I also managed to get buy-in
+from all my family members to use it. Which makes all of this possible. 
+
+Another point is that it works on both iPhones and Andoid phones.
+
 ## 2020-04-01 Magic Wands
 
 Had the thought that I could create a replica Harry Potter magic wand

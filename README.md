@@ -50,6 +50,52 @@ Log](BuildLog.md) to make the build process easier to follow. This
    current plan is to use a stepper motor to drive the existing chime
    mechanism.
 
+## Clock Face and Meaning of Sectors
+
+![Weasley Clock Face]((https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/WeasleyClockFace.jpg)
+
+What each sector of the clock face mean:
+
+* **Home** The home state is triggered by the Home Assistant life360
+  integration. I have a defined geo-fenced area that when we're inside
+  that region we are considered home. I also use the Home Assistant
+  Unifi integration to identify when members of the family are
+  connected to the home WiFi network. Additionally I can identify
+  which WiFi Access Points they are connected to, and this provides
+  some granularity as to where on the property they are. This way I
+  can tell if someone is in the shop, in the main house, or outside in
+  the garden. In fact, I use the clockwise half of the Home sector to
+  indicate someone is in the main house and the counter-clockwise half
+  to indicate someone is in the shop.
+
+* **Lost** This is a catch-all state for when someone stationary, not
+  at home, and is not at one of the named locations of School or
+  Work. The clock hand varies it's location within the sector
+  depending on how far from home they are. The closer to home, the
+  closer the hand inches towards the Home sector. The position within
+  the the Lost sector varies on a logarithmic scale to give a finer
+  grain detail when closer to home. 
+
+* **In Transit** This indicates the family member is on the move.
+
+* **Garden** This sector is triggered when connecting to the WiFi
+  access point outside near the garden.
+
+* **School** Triggered when at a Life360 location labeled as "school."
+
+* **Work** Triggered when at a Life360 location labeled as "work."
+
+* **Quidditch** Triggered when someone is bicycling. I have this
+  triggered in two ways. First, by a complex set of rules about low
+  speed movement, faster than walking and slower than
+  driving. Secondly, I detect when using [Zwift](https://zwift.com/),
+  an VR indoor cycling app.
+
+* **Mortal Peril** This is triggered if Life360 measures someone's
+  speed as greater than 75mph. With teenagers on the verge of driving
+  age, this one may occur frequently!
+
+
 ## Case Design
 
 I decided to reuse an old grandfather/grandmother clock instead of
