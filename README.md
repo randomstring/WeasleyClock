@@ -1,6 +1,8 @@
 # Weasley Clock
 
-Build a working physical Weasley Clock from Harry Potter. 
+Build a working physical [Weasley
+Clock](https://harrypotter.fandom.com/wiki/Weasley_Clock) from Harry
+Potter.
 
 **Note:** This project is feature complete. It is still an active
 project as I perfect and improve it.
