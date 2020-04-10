@@ -147,11 +147,11 @@ some sectors like "Prison" that I hope to never need.
 
 ![Weasley Clock Style 1](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/Weasley_clock_style1.gif)
 
-However, I prefered the second simpler style.
+I prefer the second style.
 
 ![Weasley Clock Style 1](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/Weasley_clock_style2.jpg)
 
-As luck would have it, [Minalima](<https://minalima.com/), artists of this style sell officially licensed [posters of the Weasley Clock](https://minalima.com/product/the-weasley-family-clock/).
+As luck would have it, [Minalima](<https://minalima.com/), the artists of this style, sell officially licensed [posters of the Weasley Clock](https://minalima.com/product/the-weasley-family-clock/).
 
 ## Chimes
 
