@@ -27,7 +27,16 @@ Document software
 
 ## Why Home Assistant?
 
+I started using [Home Assistant](https://www.home-assistant.io/) when
+I was looking at home automation choices. What started this was my
+purchase from [Konnected](https://konnected.io/), a system that
+converts an old wired alarm system to a modern IoT integration.
 
+Home Assistant is open source and strives to keep all control local
+(and private) to your home network.
+
+After over a year of tinkering with Home Assistant, I feel like I've
+only scratched the surface of what it's capable of.
 
 ## Why Life360
 
@@ -41,6 +50,16 @@ designed around tracking family members. I also managed to get buy-in
 from all my family members to use it. Which makes all of this possible. 
 
 Another point is that it works on both iPhones and Andoid phones.
+
+## Why MQTT
+
+MQTT is fairly easy to use, can generate arbitrary messages (I use
+JSON for the payload), and has extensive support in Home Assistant.
+
+Using python the [Paho MQTT](https://pypi.org/project/paho-mqtt/)
+module.
+
+# Diary
 
 ## 2020-04-01 Magic Wands
 
@@ -91,3 +110,20 @@ of what the Weasley Clock can do. The script should have other uses as
 well since it is not project specific and can send arbitrary MQTT
 messages.
 
+## 2020-04-09 Zwift Integration & Documentation
+
+Added the [Zwift](https://zwift.com/) integration to Home Assistant
+<https://pypi.org/project/zwift-client/>. This required installing the
+[HACS](https://hacs.xyz/) community software store to Home
+Assistant. I need to look at HACS some more to see about adding and
+testing my own features.
+
+The clock now registers me in the state Quidditch whenever I'm
+actively riding on Zwift.
+
+Worked on cleaning up documentation.
+
+# TODO
+
+* test painting hands with metalic paint
+* create code/algorithm to reliably detect when people ar bicycling for the Quidditch state
