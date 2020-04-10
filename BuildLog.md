@@ -59,7 +59,47 @@ JSON for the payload), and has extensive support in Home Assistant.
 Using python the [Paho MQTT](https://pypi.org/project/paho-mqtt/)
 module.
 
+## Clock Body
+
+I reused the original wood where possible to keep the aged look of the
+clock. When I needed to use new wood I stained it to match.
+
+I tried to use as much brass hardware as possible.
+
 # Diary
+
+## 2019-10-24 Thrift Store Gold!
+
+I had been thinking (and worrying) about how I was going to enclose
+the Wheasley Clock. I was thinking of building a custom housing for it
+and mount it to the wall. This would have required improving my crude
+woodworking skills.
+
+Then I spotted this Grandfather clock in a thrift store in Langley,
+Washington. I had actually spotted this exact clock two months prior
+on a visit to Widbey Island. At the time, I didn't have the
+measurements for the artwork and no way to tell if everything would
+fit. I was also traveling with my wife, for whom the clock was a
+suprise presant, so I chose to be descrete and not start measuring the
+clock on the spot.
+
+Apon returning home, I measure the clockwork and artwork so I could
+identify old clocks that would fit. I did some searching on eBay.com
+for possible candidates, however working clocks were expensive and
+virtually all could not be shipped. Finding the perfect clock in
+Florida avaiable for pick up only wasn't an option.
+
+Fate had me returning to Langley two months later and I went straight
+to the thrift shop. The clock was still there, and the price had come
+down $85. A few quick measurements later and I was positive I had a
+good fit.
+
+My wife was currious at my need to purchase the clock, but kept her
+curiosity in check as she knew it had something to with a surprise for
+her.
+
+Grandmother clock by Colonial MFG Co, Model 1866 $165 in a thrift store.
+
 
 ## 2020-04-01 Magic Wands
 
@@ -161,8 +201,6 @@ Goals
 - Something like the metallic scissors w/ engraved names
 - clock hands could either be 3D printed or possibly laser cut from metal
 
-Here are the [fonts](fonts/Fonts.md) I evaluated for use on the hands.
-
 Resources:
 - https://www.bearwood.com/clock-hands-for-purchase.html
 - https://www.ebay.com/str/JRCLOCKER-Watches-and-Clocks
@@ -176,3 +214,6 @@ Resources:
 - The clips to connect hands to the shaft are called collets
 - http://www.m-p.co.uk/muk/parts/hands-collets.htm
 
+## Fonts
+
+Here are the [fonts](fonts/Fonts.md) I evaluated for use on the hands.
