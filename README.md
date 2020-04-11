@@ -13,6 +13,9 @@ Details of the build can be found in my [Build Log](BuildLog.md).
 
 ## Design
 
+![Weasley Clock Flow Diagram](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/WeasleyClockDiagram.png)
+
+
 1. Track location of family members
    using [Life360](http://life360.com/). This service allows for
    real-time updates of each family member's location and speed.

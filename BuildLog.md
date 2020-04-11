@@ -67,6 +67,12 @@ clock. When I needed to use new wood I stained it to match.
 
 I tried to use as much brass hardware as possible.
 
+## Why Servos ? What other options?
+
+
+I found this possible motor and encoder combination:
+<https://wiki.dfrobot.com/DC_Motor_Driver_HAT_SKU_DFR059>
+<https://wiki.dfrobot.com/12V_DC_Motor_122_rpm_w_Encoder_SKU__FIT0403>
 
 # Diary
 
@@ -164,6 +170,10 @@ The clock now registers me in the state Quidditch whenever I'm
 actively riding on Zwift.
 
 Worked on cleaning up documentation.
+
+## 2020-04-11 Diagram
+
+Spent the morning creating a pretty flow diagram for README.md.
 
 
 # Specification
