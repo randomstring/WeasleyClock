@@ -134,7 +134,7 @@ Props](https://www.instagram.com/printableprops/).
 -   <https://www.facebook.com/PrintableProps/>
 -   <https://www.instagram.com/printableprops/>
 -   <https://fourierinformationsir.wordpress.com/2015/11/09/weasley-clock-update/>
--   <https://twitter.com/wbtourlondon/status/765398939910627328?lang=mr>
+-   <https://twitter.com/wbtourlondon/status/765398939910627328>
 -   <https://www.youtube.com/playlist?list=PL86twtxo_L9TMY4A5TcG2nJcsyFx2CWhb>
 -   <https://magicclock.de/>
 -   <http://www.brettoliver.org.uk/Longcase_Clock/Longcase_Clock.htm>
