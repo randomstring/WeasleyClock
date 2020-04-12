@@ -344,7 +344,17 @@ CAD model of the HS-785HB Servo can be found here:
 <https://grabcad.com/library/servo-motor-hitec-hs-785hb-1>
 
 Custom CAD files for the clock supports and hands are in the
-[CAD](CAD) sub-directory.
+[CAD](CAD) sub-directory. 
+
+
+The CAD for the clockworks support structures were created by my
+father-in-law, Ron. He also handled all the 3D printing for this
+project.
+
+<script src="https://embed.github.com/view/3d/randomstring/WeasleyClock/master/CAD/Clock_Support_Front.stl"></script>
+
+My son, Alex, did the CAD for the clock hands. *CAD files coming soon.*
+
 
 ## Mounting poster to plywood
 
