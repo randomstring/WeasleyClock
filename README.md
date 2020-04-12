@@ -351,6 +351,9 @@ The CAD for the clockworks support structures were created by my
 father-in-law, Ron. He also handled all the 3D printing for this
 project.
 
+<iframe src="https://bryndole.com/" height="200" width="300">
+</iframe>
+
 <script src="https://embed.github.com/view/3d/randomstring/WeasleyClock/master/CAD/Clock_Support_Front.stl"></script>
 
 My son, Alex, did the CAD for the clock hands. *CAD files coming soon.*
