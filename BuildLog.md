@@ -70,9 +70,9 @@ I tried to use as much brass hardware as possible.
 
 I used servos, because when I was looking at rotational control, this
 was what I found ready made solutions for first. I found  multi
-rotation "sail" servos and the Pi Servo HAT soltution first.
+rotation "sail" servos and the Pi Servo HAT solution first.
 
-Since then I've done some programing on robots. I think a motor with
+Since then I've done some programming on robots. I think a motor with
 an encoder to track the location would be a better solution. The
 position control could be more precise and it would give the option of
 using PID and motion profiling to customize the hand movement.
@@ -83,7 +83,7 @@ encoders.
 A third option would be to use stepper motors. I purchased a raspberry
 pi motor controller hat to test controlling stepper motors.
 
-Below are some seeds for future reasearch. 
+Below are some seeds for future research. 
 
 I found this possible motor and encoder combination:
 <https://wiki.dfrobot.com/DC_Motor_Driver_HAT_SKU_DFR059>
@@ -95,6 +95,48 @@ Another encoder option:
 
 Stepper motor with encoder:
 <https://www.digikey.com/product-detail/en/cui-devices/NEMA14-10-04D-AMT112S/102-4710-ND/9477637>
+
+## Notes on parts
+
+-   <https://www.servocity.com/32p-24t-c1-spline-servo-mount-gears-metal>
+    NOTE: The 32 tooth gears don't fully clear the servo body. This
+    means that to use more than one servo, we need to use a shaft so
+    that central 64 tooth gears don't hit/interfere with the servos.
+-   Using 64 tooth gears mounted to the brass tubes. This gives a clean
+    1:2 ration from the servos.
+-   HS-785HB Servo
+    -   specs <https://www.robotshop.com/media/files/pdf/hs-785hb.pdf>
+    -   Grabcad model <https://grabcad.com/library/hitec-hs-785hb-winch-servo-1>
+    -   The HS-785HB Servos have a claimed 8 full rotations. I only need
+        2 full rotations to get the full range of motion of the clock
+        hands. Having more than 360 degrees of motion allows for a little
+        **flair** when positioning the hands. I'm going to use just 6 full
+        rotations of the servo (so 3 full rotations of the hands) to
+        avoid using the extremes of the PWM signals to the servos.
+    -   Stall current for HS-785HB is 1500mA. Max current 6A (at 5V?)
+    -   No load current for HS-785HB is 230mA
+    -   Idle current for HS-785HB is 9mA
+-   possible screws for attaching to clamping hubs? 6-32
+    -   SKU 91771A145  length 0.3125" (5/16")  <  0.333" = 0.25" (hub width) + 0.083" (screw head depth)
+    -   <https://www.servocity.com/6-32-flat-head-phillips-machine-screws>
+
+
+## Why only 4 hands?
+
+When I first conceived of the idea, I expected to find a number of
+commercial multi-hand clockworks to choose from. There are plenty of 3
+hand clocks out there (hour, minute, seconds) and some are kits that
+would be hackable. I did not find any 4 or more clock hand solutions.
+
+Four was the minimum number I needed, as that was the size of my
+immediate family. I wanted to do more, ideally 7. That posed several
+problems. I was able to find a set of 7 consecutive nesting brass
+tubes 2, 3, 4, 5, 6, 7, and 8 mm. However I could not find clamping
+hubs in for 2mm, or 7mm sizes. Another challenge was fitting more than
+4 servos around the central shaft. Finally, the depth of the clockwork
+would be almost double, making fitting it into a case more difficult.
+
+These are just problems to be overcome. 
 
 # Diary
 
