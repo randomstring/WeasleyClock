@@ -191,6 +191,42 @@ wrote [weasleyclockd](https://github.com/randomstring/weasleyclockd)
 that monitors the MQTT messages from Home Assistant and manages the
 physical clock movement.
 
+
+## CAD Models of Parts
+
+Most of the parts from ServoCity.com have CAD models that can be found
+here: <https://www.servocity.com/step-files>
+
+CAD model of the HS-785HB Servo can be found here:
+<https://grabcad.com/library/servo-motor-hitec-hs-785hb-1>
+
+Custom CAD files for the clock supports and hands are in the
+[CAD](CAD) sub-directory. 
+
+The CAD for the clockworks support structures were created by my
+father-in-law, Ron. He also handled all the 3D printing for this
+project.
+
+![Servo Support](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/CAD_servo_support.png)
+![Servo Support](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/CAD_shaft_support.png)
+
+My son, Alex, did the CAD for the clock hands. *CAD files coming soon.*
+
+## Mounting poster to plywood
+
+I used 3M Super 77 Spray Adhesive for mounting the clock face artwork. 
+
+I had considered using [Mod
+Podge](https://www.amazon.com/Mod-Podge-CS11303-Waterbase-Sealer/dp/B0009ILH8C/)
+and went so far as experiment mounting some other posters to plywood
+using Mod Podge. 
+
+3M Super 77 leaves the face surface smoother, and doesn't require
+coating the front of the art to get good adhesion. Super 77 sets up
+really quickly, so watch some videos on how to use it and get a buddy
+to help keep the poster straight as you lay it down.
+
+
 # Shopping list
 
 ## Raspberry Pi
@@ -310,64 +346,4 @@ physical clock movement.
     -   [X] 5mm x 300mm Round Brass Tube .45mm Wall (3) k+s9823 Item # K+S9823
     -   [X] 6mm x 300mm Round Brass Tube .45mm Wall (2) k+s9824 Item # K+S9824
     -   [ ] 7mm x 300mm Round Brass Tube .45mm Wall (2) k+s9825 Item # K+S9825
-
-## Notes on parts
-
--   <https://www.servocity.com/32p-24t-c1-spline-servo-mount-gears-metal>
-    NOTE: The 32 tooth gears don't fully clear the servo body. This
-    means that to use more than one servo, we need to use a shaft so
-    that central 64 tooth gears don't hit/interfere with the servos.
--   Using 64 tooth gears mounted to the brass tubes. This gives a clean
-    1:2 ration from the servos.
--   HS-785HB Servo
-    -   specs <https://www.robotshop.com/media/files/pdf/hs-785hb.pdf>
-    -   Grabcad model <https://grabcad.com/library/hitec-hs-785hb-winch-servo-1>
-    -   The HS-785HB Servos have a claimed 8 full rotations. I only need
-        2 full rotations to get the full range of motion of the clock
-        hands. Having more than 360 degrees of motion allows for a little
-        **flair** when positioning the hands. I'm going to use just 6 full
-        rotations of the servo (so 3 full rotations of the hands) to
-        avoid using the extremes of the PWM signals to the servos.
-    -   Stall current for HS-785HB is 1500mA. Max current 6A (at 5V?)
-    -   No load current for HS-785HB is 230mA
-    -   Idle current for HS-785HB is 9mA
--   possible screws for attaching to clamping hubs? 6-32
-    -   SKU 91771A145  length 0.3125" (5/16")  <  0.333" = 0.25" (hub width) + 0.083" (screw head depth)
-    -   <https://www.servocity.com/6-32-flat-head-phillips-machine-screws>
-
-## CAD Models of Parts
-
-Most of the parts from ServoCity.com have CAD models that can be found
-here: <https://www.servocity.com/step-files>
-
-CAD model of the HS-785HB Servo can be found here:
-<https://grabcad.com/library/servo-motor-hitec-hs-785hb-1>
-
-Custom CAD files for the clock supports and hands are in the
-[CAD](CAD) sub-directory. 
-
-The CAD for the clockworks support structures were created by my
-father-in-law, Ron. He also handled all the 3D printing for this
-project.
-
-![Servo Support](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/CAD_servo_support.png)
-![Servo Support](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/CAD_shaft_support.png)
-
-My son, Alex, did the CAD for the clock hands. *CAD files coming soon.*
-
-## Mounting poster to plywood
-
-I used 3M Super 77 Spray Adhesive for mounting the clock face artwork. 
-
-I had considered using [Mod
-Podge](https://www.amazon.com/Mod-Podge-CS11303-Waterbase-Sealer/dp/B0009ILH8C/)
-and went so far as experiment mounting some other posters to plywood
-using Mod Podge. 
-
-3M Super 77 leaves the face surface smoother, and doesn't require
-coating the front of the art to get good adhesion. Super 77 sets up
-really quickly, so watch some videos on how to use it and get a buddy
-to help keep the poster straight as you lay it down.
-
-
 
