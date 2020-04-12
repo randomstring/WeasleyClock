@@ -337,12 +337,14 @@ physical clock movement.
 
 ## CAD Models of Parts
 
-Most of the parts from ServoCity.com have CAD models. I found a CAD
-model for the Servo on GrabCad.com (link above).
+Most of the parts from ServoCity.com have CAD models that can be found
+here: <https://www.servocity.com/step-files>
 
-I have collected all the available [CAD Files](CAD/library) in the
-[CAD](CAD) sub-directory. For all the ServoCity CAD files, check out
-the [ServoCity.com website](<https://www.servocity.com/step-files>).
+CAD model of the HS-785HB Servo can be found here:
+<https://grabcad.com/library/servo-motor-hitec-hs-785hb-1>
+
+Custom CAD files for the clock supports and hands are in the
+[CAD](CAD) sub-directory.
 
 ## Mounting poster to plywood
 

@@ -4,7 +4,7 @@ I started this log after getting the Weasley Clock feature complete. I
 should have started from the beginning. Entries prior to April 2020
 are written retrospectively.
 
-# TODO: Build
+## TODO: Build
 
 * test painting hands with metallic paint
 * create code/algorithm to reliably detect when people are bicycling for the Quidditch state
@@ -15,8 +15,7 @@ Much of this could be pieced together from the change-log of this
 GitHub repo, but writing out my design choices would be better.
 
 Write up major design process and decisions:
- * servos vs stepper motor vs motor and encoder
- * soldering servo HAT
+ * soldering servo HAT and motor controller HAT
  * finding nesting brass rods and mounting hubs
  * mounting the hands
  * creating hands
@@ -69,10 +68,33 @@ I tried to use as much brass hardware as possible.
 
 ## Why Servos ? What other options?
 
+I used servos, because when I was looking at rotational control, this
+was what I found ready made solutions for first. I found  multi
+rotation "sail" servos and the Pi Servo HAT soltution first.
+
+Since then I've done some programing on robots. I think a motor with
+an encoder to track the location would be a better solution. The
+position control could be more precise and it would give the option of
+using PID and motion profiling to customize the hand movement.
+
+Maybe I'll make another version of the clockwork using motors and
+encoders.
+
+A third option would be to use stepper motors. I purchased a raspberry
+pi motor controller hat to test controlling stepper motors.
+
+Below are some seeds for future reasearch. 
 
 I found this possible motor and encoder combination:
 <https://wiki.dfrobot.com/DC_Motor_Driver_HAT_SKU_DFR059>
 <https://wiki.dfrobot.com/12V_DC_Motor_122_rpm_w_Encoder_SKU__FIT0403>
+
+Another encoder option:
+<https://www.youtube.com/watch?v=RLCPKa9SoF0>
+<https://www.superdroidrobots.com/shop/item.aspx/quadruple-ls7366r-quadrature-encoder-buffer/2418/>
+
+Stepper motor with encoder:
+<https://www.digikey.com/product-detail/en/cui-devices/NEMA14-10-04D-AMT112S/102-4710-ND/9477637>
 
 # Diary
 
@@ -175,6 +197,12 @@ Worked on cleaning up documentation.
 
 Spent the morning creating a pretty flow diagram for README.md.
 
+Researched quadrature encoders for the raspberry pi.
+
+## 2020-04-12
+
+Add clock support CAD files. Remove ServoCity.com library CAD files,
+as they are hosted at <https://www.servocity.com/step-files>.
 
 # Specification
 
