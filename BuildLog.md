@@ -96,6 +96,11 @@ Another encoder option:
 Stepper motor with encoder:
 <https://www.digikey.com/product-detail/en/cui-devices/NEMA14-10-04D-AMT112S/102-4710-ND/9477637>
 
+Possible motor from ServoCity.com:
+<https://www.servocity.com/76-rpm-spur-gear-motor-w-encoder>
+<https://www.servocity.com/encoder-breakout-cable-4-pos-jst-xh-mh-fc-to-4-x-1-pos-tjc8-fh-mc-300mm-length>
+
+
 ## Notes on parts
 
 -   <https://www.servocity.com/32p-24t-c1-spline-servo-mount-gears-metal>
