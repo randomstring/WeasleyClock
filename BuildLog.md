@@ -6,8 +6,8 @@ are written retrospectively.
 
 ## TODO: Build
 
-* test painting hands with metallic paint
 * create code/algorithm to reliably detect when people are bicycling for the Quidditch state
+* finish demo script that replays a series of MQTT messages.
 
 ## TODO: Documentation
 
@@ -257,13 +257,13 @@ as they are hosted at <https://www.servocity.com/step-files>.
 I spent the last few days experimenting with painting the clock
 hands. The recipe I like is to clean up the 3D printed piece. Smooth
 it with a file and then emery paper. Next a layer of primer to help
-give it a smooth surface. Then pait with metalic nickle spray
-paint. Then mask off the letters of the name with blue paiters
-tape. Then finish with a light, aproximately 75% coverage of the hand
+give it a smooth surface. Then paint with metallic nickle spray
+paint. Then mask off the letters of the name with blue painters
+tape. Then finish with a light, approximately 75% coverage of the hand
 with flat black paint. This lets a bit of the silver nickle shine
-through, but provides good contrast against the clock flace. Final
-step is to remove the masking tape to reviewl the names in bright
-silvery metalic nickle.
+through, but provides good contrast against the clock face. Final
+step is to remove the masking tape to reveaxl the names in bright
+silvery metallic nickle.
 
 Now I need to remove the hands from the clock, paint the hands, and
 then re-install them.
@@ -272,7 +272,12 @@ I hired my son to create CAD files in SolidWorks of example clock
 hands with the Weasley family names from the Harry Potter movies. He
 also created a CAD rendering of the clockwork.
 
-I need to get those uploaded to github and to grabcad.
+I need to get those uploaded to GitHub and to Grabcad.
+
+## 2020-04-17 Repaint
+
+Removed the 3D printed hands from the clock and started painting
+them. First primer coat applied.
 
 # Specification
 
