@@ -207,10 +207,12 @@ The CAD for the clockworks support structures were created by my
 father-in-law, Ron. He also handled all the 3D printing for this
 project.
 
-![Servo Support](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/CAD_servo_support.png)
-![Servo Support](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/CAD_shaft_support.png)
+My son, Alex, did the CAD for the clock hands. And generated a CAD
+rendering of the clockworks:
 
-My son, Alex, did the CAD for the clock hands. *CAD files coming soon.*
+![CAD View](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/CAD_Clock_Assembly.PNG)
+![CAD Front View](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/CAD_Clock_Assembly_Front.PNG)
+
 
 ## Mounting poster to plywood
 
