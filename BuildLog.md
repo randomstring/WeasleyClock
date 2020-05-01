@@ -296,8 +296,10 @@ process had no working MQTT for most of a day. It's all working now.
 Turns out port 4883 is a non-standard MQTT over SSL port. Switched to
 using port 8883.
 
-Fine tuning [demo2](../demos/demo2.json) to demonstrate what happens
-when someone is far from home and then travels back home.
+Fine tuning
+[demo2](http://github.com/randomstring/weasleyclockd/demos/demo2.json)
+to demonstrate what happens when someone is far from home and then
+travels back home.
 
 ## 2020-05-01
 
