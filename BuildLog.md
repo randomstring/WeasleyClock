@@ -279,6 +279,34 @@ I need to get those uploaded to GitHub and to Grabcad.
 Removed the 3D printed hands from the clock and started painting
 them. First primer coat applied.
 
+## 2020-04-25 Finsihed painting
+
+Finished painting and reinstalled. Back up and running! With COVID-19,
+there isn't much movement other than people moving between "Home" and
+"Garden."
+
+## 2020-04-26
+
+Worked on the MQTT script replay program to be able to demo various
+features. In the process the MQTT broker on my Home Assistant went a
+little wonky, I discovered that the broker I had installed was now
+depricated, migrated to the supported MQTT HA broker, and in the
+process had no working MQTT for most of a day. It's all working now.
+
+Turns out port 4883 is a non-standard MQTT over SSL port. Switched to
+using port 8883.
+
+Fine tuning [demo2](../demos/demo2.json) to demonstrate what happens
+when someone is far from home and then travels back home.
+
+## 2020-05-01
+
+Figured out why the hand placement was off for some of the edges of
+some segments. I only just noticed that the the clock segments on the
+artwork are not all equally sized. I had assumed that all 8 segments
+were equal size and thus 45deg wide. Instead half of the segments are
+40 degrees and half are 50 degrees. 
+
 # Specification
 
 Assorted measurements and specifications for parts. Pulling this out
