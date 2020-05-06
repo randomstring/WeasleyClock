@@ -4,10 +4,7 @@ Build a working physical [Weasley
 Clock](https://harrypotter.fandom.com/wiki/Weasley_Clock) from Harry
 Potter.
 
-**Note:** This project is feature complete. It is still an active
-project as I perfect and improve it.
-
-Photo album: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
+Photo album of the build: <https://photos.app.goo.gl/7yxiuzpsFReUh5Yy5>
 
 Details of the build can be found in my [Build Log](BuildLog.md).
 
@@ -54,7 +51,7 @@ Details of the build can be found in my [Build Log](BuildLog.md).
 
 ## Clock Face and Meaning of Sectors
 
-![Weasley Clock Face](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/WeasleyClockFace.jpeg)
+![Weasley Clock Face](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/demo3.gif)
 
 What each sector of the clock face means:
 

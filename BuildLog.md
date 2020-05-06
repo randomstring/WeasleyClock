@@ -309,6 +309,16 @@ artwork are not all equally sized. I had assumed that all 8 segments
 were equal size and thus 45deg wide. Instead half of the segments are
 40 degrees and half are 50 degrees. 
 
+## 2020-05-05
+
+Demo work. Improved demo scripts. Filmed stable video of demos. Made
+animated GIFs of demos.
+
+```
+ ffmpeg -i IMG_7587.MOV -vf crop=1146:1080:387:0,scale=382:360,fps=6 demo2.gif
+ ffmpeg -i IMG_7586.MOV -vf crop=1146:1080:387:0,scale=382:360,fps=6 demo3.gif
+```
+
 # Specification
 
 Assorted measurements and specifications for parts. Pulling this out
