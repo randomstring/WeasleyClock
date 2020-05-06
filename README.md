@@ -51,7 +51,7 @@ Details of the build can be found in my [Build Log](BuildLog.md).
 
 ## Clock Face and Meaning of Sectors
 
-![Weasley Clock Face](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/demo3.gif)
+![Weasley Clock Demo 3](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/demo3.gif) ![Weasley Clock Demo 2](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/demo2.gif)
 
 What each sector of the clock face means:
 
