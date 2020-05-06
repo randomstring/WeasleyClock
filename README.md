@@ -22,32 +22,32 @@ Details of the build can be found in my [Build Log](BuildLog.md).
    home. Home assistant is hosted on a Raspberry Pi
    running [Hass.io](https://www.home-assistant.io/hassio/).
 
-3. Custom Home Assistant rules to calculate the Weasley Clock
-   state for each family member. Each state is visible from the Home
-   Assistant dashboard. Changes in clock state are transmitted to the
-   physical clock using the MQTT protocol over the network.
+3. Custom Home Assistant rules calculate the Weasley Clock state for
+   each family member. Each state is visible from the Home Assistant
+   dashboard. Changes in clock state are transmitted to the physical
+   clock using the MQTT protocol over the network.
 
-4. [Custom software](https://github.com/randomstring/weasleyclockd) 
-   running on a Raspberry Pi that monitors the MQTT message stream for
-   changes in clock state and updates the physical clock hands to
+4. [Custom software](https://github.com/randomstring/weasleyclockd)
+   running on a Raspberry Pi monitoring the MQTT message stream for
+   changes in clock state and updating the physical clock hands to
    match. This software also adds some flare to hand movement. For
    example, the placement of the hand within each clock face sector
-   will be determined by the person's distance from home. This way,
-   you can tell if someone is far or near to home at a glance. You
-   might even be able to notice the progress of the person's dial
+   will be determined by the person's distance from home. This way you
+   can tell if someone is far or near to home at a glance. You might
+   even be able to notice the progress of the person's clock hand
    progressing towards home.
 
-5. A physical clock with four hands. The clock is mounted into
-   an old Grandfather clock. The face of the clock is divided into
-   eight equal sectors, each has a location/situations label. These
-   labels are: Home, Mortal Peril, Quidditch, Work, School, Garden, In
-   Transit, and Lost.
+5. A physical clock with four hands. The clock is mounted into an old
+   grandfather clock. The face of the clock is divided into eight
+   nearly equal sectors. Each sector has a location/situations
+   label. These labels are: Home, Mortal Peril, Quidditch, Work,
+   School, Garden, In Transit, and Lost.
 
 6. The next phase will be to reuse the chimes that came with the
-   original clock. The chimes can be alerts to noteworthy changes in
-   the clock's state. Say announce someone's arrival back home. The
-   current plan is to use a stepper motor to drive the existing chime
-   mechanism.
+   original clock. The chimes can alert to noteworthy changes in the
+   clock's state, for example, announcing someone's arrival back
+   home. The current plan is to use a stepper motor to drive the
+   existing chime mechanism.
 
 ## Clock Face and Meaning of Sectors
 
@@ -56,23 +56,23 @@ Details of the build can be found in my [Build Log](BuildLog.md).
 What each sector of the clock face means:
 
 * **Home** The home state is triggered by the Home Assistant Life360
-  integration. I have a defined geo-fenced area that when we are inside
+  integration. I have a defined geo-fenced area, when we are inside
   that region, we are considered home. I also use the Home Assistant
   Unifi integration to identify when members of the family are
   connected to the home WiFi network. Additionally, I can identify
   which WiFi access points (APs) they are connected to. This provides
-  some granularity as to where on the property they are. The system
-  can tell if someone is in the shop, in the main house, or outside in
-  the garden. In fact, I use the clockwise half of the Home sector to
-  indicate someone is in the main house and the counter-clockwise half
-  to indicate someone is in the shop.
+  some granularity as to where they on the property. The system can
+  tell if someone is in the shop, in the main house, or outside in the
+  garden. I use the clockwise half of the Home sector to indicate
+  someone is in the main house and the counter-clockwise half to
+  indicate someone is in the shop.
 
 * **Lost** This is a catch-all state for when someone is stationary,
   not at home, and is not at one of the named locations of School or
   Work. The clock hand varies its location within the sector
   depending on how far from home they are. The closer to home, the
   closer the hand inches towards the Home sector. The position within
-  the the Lost sector varies on a logarithmic scale to give a finer
+  the Lost sector varies on a logarithmic scale to give a finer
   grain detail when closer to home.
 
 * **In Transit** This indicates the family member is on the move.
@@ -99,21 +99,25 @@ What each sector of the clock face means:
 
 I decided to reuse an old grandfather/grandmother clock instead of
 building a new case. I got lucky and found a perfect case at a thrift
-shop. I needed the dimensions of the face to match the artwork I have
-and the depth of the case needed to hold the servos and new clockwork.
+shop. The clock was a petite grandfather clock, sometimes referred to
+as a grandmother clock. Not as imposing and difficult to move as a
+full sized grandfather clock. I needed the dimensions of the face to
+match the artwork I have and the depth of the case needed to hold the
+servos and new clockwork.
 
 ## Clock Hands
 
 Hands are 3D printed with the name of each family member on the hands,
 just like in the Harry Potter movies. The bottom of each hand has the
-person's initial. 
+person's initial. Hands are painted for better contrast and to give an
+aged appearance.
 
 I spent a long time trying to figure out how to secure the hands to
 the brass tube axles. I considered clamping hubs (too bulky), collets
 (metal connectors traditional clock hands use), glue, and hot glue
 (this works well). In the end, by making the holes in the 3D printed
 hands strategical smaller, I was able to expand the holes with a file
-so that they just fit. They were on tight enough to be secure. I did
+so that they just fit. They were tight enough to be secure. I did
 remove too much material from one of the hands and resorted to glue
 (E-6000) to keep it in place.
 
@@ -149,12 +153,16 @@ I prefer the second style.
 
 ![Weasley Clock Style 1](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/Weasley_clock_style2.jpg)
 
-As luck would have it, [Minalima](https://minalima.com/), the artists of this style, sell officially licensed [posters of the Weasley Clock](https://minalima.com/product/the-weasley-family-clock/).
+As luck would have it, [Minalima](https://minalima.com/), the artists
+of this style, sell officially licensed [posters of the Weasley
+Clock](https://minalima.com/product/the-weasley-family-clock/). This
+was well worth the money for the poster as I didn't have to create the
+artwork myself and this *is* the artwork from the Harry Potter movie.
 
 ## Chimes
 
 The grandmother/grandfather clock came with a set of chimes. I plan to
-integrate them once I have the clock mechanism finished. I started a new project to research and docuent this build: [Weasley Chimes](https://github.com/randomstring/WeasleyChimes/).
+integrate them once I have the clock mechanism finished. I started a new project to research and document this build: [Weasley Chimes](https://github.com/randomstring/WeasleyChimes/).
    
 
 ## Home Assistant
@@ -204,7 +212,7 @@ The CAD for the clockworks support structures were created by my
 father-in-law, Ron. He also handled all the 3D printing for this
 project.
 
-My son, Alex, did the CAD for the clock hands. And generated a CAD
+My son, Alex, did the CAD for the clock hands, and generated a CAD
 rendering of the clockworks:
 
 ![CAD View](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/CAD_Clock_Assembly.PNG)

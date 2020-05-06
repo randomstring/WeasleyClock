@@ -7,7 +7,6 @@ are written retrospectively.
 ## TODO: Build
 
 * create code/algorithm to reliably detect when people are bicycling for the Quidditch state
-* finish demo script that replays a series of MQTT messages.
 
 ## TODO: Documentation
 
@@ -178,6 +177,26 @@ her.
 Grandmother clock by Colonial MFG Co, Model 1866 $165 in a thrift store.
 
 
+## 2020-02-20 Plug It In
+
+The pi and servos need power. The servos have their own power supply,
+so I needed at least two outlets inside the clock to provide power. I
+found this extension cord
+<https://www.amazon.com/gp/product/B07BBGM5WH/> on Amazon. That fit
+with my sense of aesthetics for the clock. And because it was a dark
+grey, it's almost invisible inside the base of the clock. I also
+purchased a black pi USB power
+supply. <https://www.amazon.com/gp/product/B00MARDJZ4/>
+
+I drilled a hole in the bottom of the clock big enough for the cable
+and then voided the warranty on the cord by cutting it, feeding the
+cable through and then splicing it back together. I didn't want to
+make a huge hole to squeeze the plug through.
+
+I ran the pair of black power cables for the pi and servos up the
+back, inside corner of the case. They are discreet enough that you
+don't see them, unless you're looking for them.
+
 ## 2020-04-01 Magic Wands
 
 Had the thought that I could create a replica Harry Potter magic wand
@@ -262,7 +281,7 @@ paint. Then mask off the letters of the name with blue painters
 tape. Then finish with a light, approximately 75% coverage of the hand
 with flat black paint. This lets a bit of the silver nickle shine
 through, but provides good contrast against the clock face. Final
-step is to remove the masking tape to reveaxl the names in bright
+step is to remove the masking tape to reveal the names in bright
 silvery metallic nickle.
 
 Now I need to remove the hands from the clock, paint the hands, and
@@ -279,7 +298,7 @@ I need to get those uploaded to GitHub and to Grabcad.
 Removed the 3D printed hands from the clock and started painting
 them. First primer coat applied.
 
-## 2020-04-25 Finsihed painting
+## 2020-04-25 Finished painting
 
 Finished painting and reinstalled. Back up and running! With COVID-19,
 there isn't much movement other than people moving between "Home" and
@@ -290,7 +309,7 @@ there isn't much movement other than people moving between "Home" and
 Worked on the MQTT script replay program to be able to demo various
 features. In the process the MQTT broker on my Home Assistant went a
 little wonky, I discovered that the broker I had installed was now
-depricated, migrated to the supported MQTT HA broker, and in the
+deprecated, migrated to the supported MQTT HA broker, and in the
 process had no working MQTT for most of a day. It's all working now.
 
 Turns out port 4883 is a non-standard MQTT over SSL port. Switched to
