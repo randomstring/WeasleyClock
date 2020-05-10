@@ -4,25 +4,9 @@ I started this log after getting the Weasley Clock feature complete. I
 should have started from the beginning. Entries prior to April 2020
 are written retrospectively.
 
-## TODO: Build
+## TODO: Build/Code
 
 * create code/algorithm to reliably detect when people are bicycling for the Quidditch state
-
-## TODO: Documentation
-
-Much of this could be pieced together from the change-log of this
-GitHub repo, but writing out my design choices would be better.
-
-Write up major design process and decisions:
- * soldering servo HAT and motor controller HAT
- * finding nesting brass rods and mounting hubs
- * mounting the hands
- * creating hands
-
-Document software
- * Home Assistant
- * MQTT
- * python daemon
 
 ## Why Home Assistant?
 
@@ -36,6 +20,10 @@ Home Assistant is open source and strives to keep all control local
 
 After over a year of tinkering with Home Assistant, I feel like I've
 only scratched the surface of what it's capable of.
+
+I published [example configuration
+templates](https://github.com/randomstring/WeasleyClock/tree/master/homeassistant)
+for integrating into Home Assistant.
 
 ## Why Life360?
 
@@ -57,6 +45,30 @@ JSON for the payload), and has extensive support in Home Assistant.
 
 Using python the [Paho MQTT](https://pypi.org/project/paho-mqtt/)
 module.
+
+I implemented the MQTT the Weasley Clock Server/Client in a stand
+alone repo called
+[weasleyclockd](https://github.com/randomstring/weasleyclockd).
+
+The other obvious choice would have been to use an HTTP and RESTful
+API. I haven't ruled out adding one. 
+
+## Monolithic Approach
+
+Alternatively, I could have just implemented a direct integration with
+Life360 on the Raspberry Pi. This would have taken the form of a
+single daemon running on the Weasley Clock that would poll Life360 and
+do all the state calculations.
+
+This would have been less complicated, removing the need for Home
+Assistant and the MQTT broker. There are a couple downsides to this
+approach. First, I would need to keep the Life360 API up to date in the
+event the API or the authentication scheme changed. If Life360 goes
+away for some reason, I can switch to some other location tracking
+system supported by Home Assistant. Secondly, I can leverage the Unifi
+Home Assistant integration to track which Wi-Fi AP people are connected
+to. AP level locations allow figuring out when someone is in the Shop
+or outside in the Garden.
 
 ## Clock Body Details
 
@@ -144,6 +156,71 @@ These are just problems to be overcome.
 
 # Diary
 
+## 2019-02-07 Pi Servo HAT
+
+Ordered the [Adafruit 16-Channel PWM / Servo HAT for Raspberry
+Pi](https://www.adafruit.com/product/2327) to start experimenting with
+running servos. 
+
+The servo HAT requires soldering on the headers. I watched a few
+YouTube videos like this one to learn how
+<https://www.youtube.com/watch?v=t9LOtOBOTb0> 
+
+I got the larger capacity [5V 4A (4000mA) switching power
+supply](https://www.adafruit.com/product/1466) that can power more
+servos. This 4 Amps, might be overkill but at the time I didn't know
+which and how many servos I would need to drive.
+
+## 2019-03-07 Brass Tubes
+
+Order a set of nesting brass tubes from Hobbylinc. I order them in
+metric whole millimeter sizes. The wall thickness on each is .45mm,
+leaving 0.1mm of clearance for the next smaller size of tube.
+
+Here is a link to the 4m size tube:
+<http://www.hobbylinc.com/htm/k+s/k+s9822.htm>
+
+I also get mounting hubs for attaching gears to the hubs
+<https://www.servocity.com/770-clamping-hubs>.
+
+## 2019-03-13 Order Servos and Gears
+
+Made my first order from [Servo City](https://www.servocity.com/) for
+a multi-turn "sail winch servo." Specifically the [HS
+785hb](https://www.servocity.com/hs-785hb-servo) This is a servo that
+has a range of motion more than 360 degrees. Most servos have a range
+of less than 360 degree. 
+
+I talk about other options for accurate rotation of for the clock
+hands, but at this point I had done enough research to know this
+should work.
+
+## 2019-03-14 Thinking about Hands
+
+So I'd been thinking about how I was going to design, make, and
+ultimately attach clock hands. Of all the similar projects I found, by
+far the best was by [Printable
+Props](https://printableprops.jimdofree.com/en/harry-potter/weasley-clock/). I
+messaged the creator, Pascal, hoping he might share the CAD for his
+clock hands. He went full on authentic, artistically re-creating the
+hands from the movie. Sadly I didn't hear back. 
+
+My friend Ben suggested outsourcing the hands to
+[Shapeways](https://www.shapeways.com/). I came pretty close to doing
+that.
+
+Thankfully, my son was enrolled in CAD and Advanced CAD at his high
+school. By the time I really needed the hands done, he was able to use
+his mad CAD skills to create custom hands in SolidWorks.
+
+
+## 2019-06-19 Prototype Clockworks
+
+I build the first prototype of the clockworks and some [custom code to
+control the HS 785hb
+servos](https://github.com/randomstring/weasleyclockd/blob/master/hs785hb_servo.py).
+
+
 ## 2019-10-24 Thrift Store Gold!
 
 I had been thinking (and worrying) about how I was going to enclose
@@ -184,7 +261,7 @@ so I needed at least two outlets inside the clock to provide power. I
 found this extension cord
 <https://www.amazon.com/gp/product/B07BBGM5WH/> on Amazon. That fit
 with my sense of aesthetics for the clock. And because it was a dark
-grey, it's almost invisible inside the base of the clock. I also
+gray, it's almost invisible inside the base of the clock. I also
 purchased a black pi USB power
 supply. <https://www.amazon.com/gp/product/B00MARDJZ4/>
 
@@ -338,6 +415,13 @@ animated GIFs of demos.
  ffmpeg -i IMG_7586.MOV -vf crop=1146:1080:387:0,scale=382:360,fps=6 demo3.gif
 ```
 
+## 2020-05-10 
+
+I just found <http://www.themagicclock.com/>. This person made many of
+the same decisions I did, including using sail winch servos and
+reusing an antique clock body. No location tracking, or at least not
+when they last updated their webpage.
+
 # Specification
 
 Assorted measurements and specifications for parts. Pulling this out
@@ -391,6 +475,22 @@ Resources:
 - https://perrinwatchparts.com/collections/clock-hand-nuts/products/clock-parts-740191?variant=39071940047
 - The clips to connect hands to the shaft are called collets
 - http://www.m-p.co.uk/muk/parts/hands-collets.htm
+
+
+## Clock Hands Solution
+
+My son, Alex, generated the 3D CAD models for the hands with some
+artisitc input from myself. In particular I spent a fair amount of
+time finding a good font to use. After a couple iterations they came
+out great! He put in a little extra time to make his clock hand have
+some extra flair.
+
+I kept the production in house. My father-in-law ran the 3D printer to
+print them.
+
+Attaching them to the brass rods turned out not to be an issue at
+all. The 3D hands were printed with slightly undersized holes. I filed
+out the holes so that they would fit, but very securely. 
 
 ## Fonts
 

@@ -130,8 +130,9 @@ researching how others have attempted to build a Weasley Clock. The
 most complete and authentic build I've found is by [Printable
 Props](https://www.instagram.com/printableprops/).
 
--   <https://www.instructables.com/id/Build-Your-Own-Weasley-Location-Clock/>
+-   <http://www.themagicclock.com/>
 -   <https://printableprops.jimdo.com/en/harry-potter/weasley-clock/>
+-   <https://www.instructables.com/id/Build-Your-Own-Weasley-Location-Clock/>
 -   <https://www.facebook.com/PrintableProps/>
 -   <https://www.instagram.com/printableprops/>
 -   <https://fourierinformationsir.wordpress.com/2015/11/09/weasley-clock-update/>
@@ -139,6 +140,8 @@ Props](https://www.instagram.com/printableprops/).
 -   <https://www.youtube.com/playlist?list=PL86twtxo_L9TMY4A5TcG2nJcsyFx2CWhb>
 -   <https://magicclock.de/>
 -   <http://www.brettoliver.org.uk/Longcase_Clock/Longcase_Clock.htm>
+-   <https://www.youtube.com/watch?v=NH0jhxouQM8>
+-   <https://www.youtube.com/watch?v=WJ2PBmOW_Rc>
 
 ## Artwork
 
