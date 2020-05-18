@@ -38,6 +38,11 @@ from all my family members to use it. Which makes all of this possible.
 
 Another point is that it works on both iPhones and Android phones.
 
+Life360 allows for setting up several geo-fenced regions and giving
+them labels. For instance I have a geo-fence region for each school.
+Home Assistant also has this feature, so this can be done in Home
+Assistant just using the latitude and longitude provided by Life360.
+
 ## Why MQTT?
 
 MQTT is fairly easy to use, can generate arbitrary messages (I use
@@ -229,7 +234,7 @@ and mount it to the wall. This would have required improving my crude
 woodworking skills.
 
 Then I spotted this Grandfather clock in a thrift store in Langley,
-Washington. I had actually spotted this exact clock two months prior
+Washington. I had actually spotted this exact clock three months prior
 on a visit to Whidbey Island. At the time, I didn't have the
 measurements for the artwork and no way to tell if everything would
 fit. I was also traveling with my wife, for whom the clock was a
@@ -242,7 +247,7 @@ for possible candidates, however working clocks were expensive and
 virtually all could not be shipped. Finding the perfect clock in
 Florida available for pick up only wasn't an option.
 
-Fate had me returning to Langley two months later and I went straight
+Fate had me returning to Langley three months later and I went straight
 to the thrift shop. The clock was still there, and the price had come
 down $85. A few quick measurements later and I was positive I had a
 good fit.
@@ -421,6 +426,26 @@ I just found <http://www.themagicclock.com/>. This person made many of
 the same decisions I did, including using sail winch servos and
 reusing an antique clock body. No location tracking, or at least not
 when they last updated their webpage.
+
+## 2020-05-17 3D Printed Gear Research
+
+Shopping around for alternate build options. 
+
+Not sure why I overlooked McMaster-Carr in the past.
+https://www.mcmaster.com/shafts/copper-brass-and-bronze/system-of-measurement~metric/shape~round-tube/
+
+Customizable Shaft Collar
+https://www.thingiverse.com/thing:3694236
+
+Examples of 3D printed shaft connectors.
+https://howtomechatronics.com/projects/arduino-3d-wire-bending-machine/
+https://howtomechatronics.com/projects/arduino-mecanum-wheels-robot/
+
+3D printed motor mount and gears
+http://lukemetz.com/mechanical-v2-base/
+
+Quora Ideas on how to attach 3D printed gears to metal shafts
+https://www.quora.com/What-is-the-best-way-to-secure-a-3D-printed-PLA-gear-to-a-metal-shaft
 
 # Specification
 
