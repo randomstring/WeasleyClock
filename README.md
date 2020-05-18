@@ -13,9 +13,11 @@ Details of the build can be found in my [Build Log](BuildLog.md).
 ![Weasley Clock Flow Diagram](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/WeasleyClockDiagram.png)
 
 
-1. Track location of family members
-   using [Life360](http://life360.com/). This service allows for
-   real-time updates of each family member's location and speed.
+1. Track location of family members using
+   [Life360](http://life360.com/). This service allows for real-time
+   updates of each family member's location and speed. Life360 allows
+   for naming of arbitrary geo-fenced areas. This is used for labling
+   locations like school and work.
 
 2. Use [Home Assistant](https://www.home-assistant.io/) as a clearing
    house for family member location and movement within and around
