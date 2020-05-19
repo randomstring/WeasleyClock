@@ -7,6 +7,7 @@ are written retrospectively.
 ## TODO: Build/Code
 
 * create code/algorithm to reliably detect when people are bicycling for the Quidditch state
+* better document Zwift integration, post example home assistant configuration
 
 ## Why Home Assistant?
 
