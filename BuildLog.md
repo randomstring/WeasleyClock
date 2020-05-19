@@ -448,6 +448,12 @@ http://lukemetz.com/mechanical-v2-base/
 Quora Ideas on how to attach 3D printed gears to metal shafts
 https://www.quora.com/What-is-the-best-way-to-secure-a-3D-printed-PLA-gear-to-a-metal-shaft
 
+## 2020-05-19
+
+Wrote a blog post about the project, focused more on the non-technical side. https://randomstring2.blogspot.com/2020/05/weasley-location-clock-project.html It's been 5 years since my last blog post. Given how terrible blogger is, it might be another 5 before the next one. 
+
+This project got onto the Hacker News front page. It got as high as #12 (that I saw). https://news.ycombinator.com/item?id=23235807 Woot!
+
 # Specification
 
 Assorted measurements and specifications for parts. Pulling this out
