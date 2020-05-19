@@ -44,6 +44,29 @@
         entity_id:
           - sensor.home_ap_user1
           - device_tracker.life360_user1
+        icon_template: >-
+          {% set icon = 'mdi:clock-outline' %}
+          {% set s = 'sensor.weasley_clock_user1' %}
+          {% if states(s) == 'school' %}
+          {%   set icon = 'mdi:school' %}
+          {% elif states(s) == 'home' %}
+          {%   set icon = 'mdi:home' %}
+          {% elif states(s) == 'barn' %}
+          {%   set icon = 'mdi:barn' %}
+          {% elif states(s) == 'lost' %}
+          {%   set icon = 'mdi:map-marker-question' %}
+          {% elif states(s) == 'intransit' %}
+          {%   set icon = 'mdi:train-car' %}
+          {% elif states(s) == 'work' %}
+          {%   set icon = 'mdi:briefcase' %}
+          {% elif states(s) == 'garden' %}
+          {%   set icon = 'mdi:flower' %}
+          {% elif states(s) == 'mortalperil' %}
+          {%   set icon = 'mdi:speedometer' %}
+          {% elif states(s) == 'quidditch' %}
+          {%   set icon = 'mdi:broom' %}
+          {% endif %}
+          {{ icon }}
         value_template: >-
           {%- set home_ap_sensor = 'sensor.home_ap_user1' %}
           {%- set tracker = 'device_tracker.life360_user1' %}
