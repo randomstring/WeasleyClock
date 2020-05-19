@@ -144,6 +144,7 @@ Props](https://www.instagram.com/printableprops/).
 -   <http://www.brettoliver.org.uk/Longcase_Clock/Longcase_Clock.htm>
 -   <https://www.youtube.com/watch?v=NH0jhxouQM8>
 -   <https://www.youtube.com/watch?v=WJ2PBmOW_Rc>
+-   <http://www.thisispete.com/work/prototyping/weather_clock/>
 
 ## Artwork
 
