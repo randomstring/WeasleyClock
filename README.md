@@ -219,9 +219,10 @@ father-in-law, Ron. He also handled all the 3D printing for this
 project.
 
 My son, Alex, did the CAD for the clock hands, and generated a CAD
-rendering of the clockworks:
+rendering of the clockworks. Complete [CAD renderings of the clockworks
+and hands are on GrabCad.com](https://grabcad.com/library/weasley-clock-2).
 
-![CAD View](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/CAD_Clock_Assembly.PNG)
+![Cad View](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/CAD_Clock_Assembly.PNG)
 ![CAD Front View](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/CAD_Clock_Assembly_Front.PNG)
 
 
