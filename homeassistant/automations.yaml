@@ -18,6 +18,8 @@
     platform: state
   - platform: mqtt
     topic: weasleyclock/UPDATE
+  - event: start
+    platform: homeassistant
   condition: []
   action:
   - data:
