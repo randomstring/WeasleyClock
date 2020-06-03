@@ -454,6 +454,50 @@ Wrote a blog post about the project, focused more on the non-technical side. htt
 
 This project got onto the Hacker News front page. It got as high as #12 (that I saw). https://news.ycombinator.com/item?id=23235807 Woot!
 
+## 2020-06-01 Detect when Bicycling
+
+This had been bothering me for a while. The Life360 moving state would
+be too easy to confusing with driving or even walking. I could use a
+range of speed that I assigned to be cycling. However, this would
+require implementing an average speed sensor. Even with the average
+speed, there are situations when I might be driving slowly (stuck in
+traffic) or biking quickly (down a long descent) that would be outside
+any fixed range. I could use geolocation to get street names and
+figure out when I'm on a bike train or an interstate and set the
+activity accordingly. I looked into ways to detect what device my
+phone was paired with via Bluetooth. If my phone was paired with my
+Garmin cycling computer, I would know I was cycling. I was starting to
+think I was going to have to write a complicated state machine as a
+custom plugin or script to make a reasonable guess at when I was
+biking or not. This is why I was procrastinating this task...
+
+In the end I took one last look at the Garmin LiveTrack feature. This
+will send an email with a URL for tracking your ride in real time. I
+use this email as a trigger when I start a ride and I use my return
+home as a trigger that the ride is over. In the future I'll work on
+actually pulling the URL fromthe email to detect when the ride is
+over. Or just time out after 2 hours of being stationary.
+
+Steps:
+ - create a dummy gmail account to recieve notifications
+ - turn on LiveTracking on my Garmin 530 and send notifications to new gmail account
+ - enable email sensor on HA https://www.home-assistant.io/integrations/imap_email_content/
+ - autoarchive new emails after 15 minutes
+   see: https://medium.com/@fw3d/auto-archive-emails-in-gmail-after-2-days-1ebf0e076b1c
+ - email sensor look for start of LiveTrack email, this signals start of ride
+ - autoArchive script removes email after 15 min
+ - end of ride when returning home
+
+
+Still to do is to flag the end of the ride even when not at home. This
+can be done by following the LiveTrack URL and monitor when the ride
+is actually over. Would be nice if there were an API.
+
+Strava used to have API access to the Strava Beacon feature, but it
+seems to be gone in the current API version.
+
+Alternatively, I can manually send an email to flag the end of a ride.
+
 # Specification
 
 Assorted measurements and specifications for parts. Pulling this out
