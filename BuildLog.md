@@ -498,6 +498,26 @@ seems to be gone in the current API version.
 
 Alternatively, I can manually send an email to flag the end of a ride.
 
+# 2020-06-11
+
+Purchased a Wahoo ROAM bike computer. The Wahoo Fitness live track
+feature has a permanent URL so I can monitor a single URL to detect
+when I start and stop biking. Still need to write code to check the
+URL and parse out the biking state.
+
+Garmin sucks, so this was a welcome motivation to make the switch to
+Wahoo. Wahoo also has a cloud API in the works. 
+
+
+# 2020-06-13
+
+Noticed that clock state sensor in homeassistant was not getting
+updated often enough. Only on major state transitions 'moving' to
+'stationary' for instance. I added the home assistant proximity
+integration to add something with a value that would change as the
+person moved. I used meters as units so that even small movements
+would trigger a weasleyclock state update.
+
 # Specification
 
 Assorted measurements and specifications for parts. Pulling this out

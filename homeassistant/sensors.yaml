@@ -43,6 +43,7 @@
       weasley_clock_user1:
         entity_id:
           - sensor.home_ap_user1
+          - proximity.user1
           - device_tracker.life360_user1
         icon_template: >-
           {% set icon = 'mdi:clock-outline' %}
