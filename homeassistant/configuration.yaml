@@ -1,0 +1,23 @@
+#
+# Proximity Integration
+#
+#
+# Track distance of each user from home. Use meters as units so the
+# value updates frequently. We depend on updates to trigger sensor
+# updates. Distance is in whole numbers, so using kilometers or miles
+# as units will lower the update frequency.
+#
+# https://www.home-assistant.io/integrations/proximity/
+#
+
+proximity:
+  user1:
+    devices:
+      - device_tracker.life360_user1
+    tolerance: 50
+    unit_of_measurement: m
+  user2:
+    devices:
+      - device_tracker.life360_user2
+    tolerance: 50
+    unit_of_measurement: m    
