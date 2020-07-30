@@ -518,6 +518,18 @@ integration to add something with a value that would change as the
 person moved. I used meters as units so that even small movements
 would trigger a weasleyclock state update.
 
+# 2020-07-16
+
+This WeasleyClock project was included in the [GitHub Archive
+Program](https://archiveprogram.github.com/). Now when aliens unearth
+the wreckage of human civilization, they'll have instructions on how
+to build a WeasleyClock!
+
+# 2020-07-30
+
+This project got written up on Hackaday
+<https://hackaday.com/2020/07/29/do-you-know-where-your-children-are-check-the-weasley-clock/>
+
 # Specification
 
 Assorted measurements and specifications for parts. Pulling this out
