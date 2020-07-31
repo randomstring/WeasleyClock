@@ -530,6 +530,24 @@ to build a WeasleyClock!
 This project got written up on Hackaday
 <https://hackaday.com/2020/07/29/do-you-know-where-your-children-are-check-the-weasley-clock/>
 
+# 2020-07-31
+
+This project got written up on Tom's Hardware
+<https://www.tomshardware.com/news/raspberry-pi-weasley-family-clock-from-harry-potter-runs-like-magic>
+
+Made a first attempt at coding the Quiddich state detector using the
+iOS activity sensor. On iOS each activity has it's own state, true or
+false. However, the way that the Home Assistant app reports it is as a
+single state, and cycling is at the bottom of the reporting. So if
+Walking, Running, or driving is set to true, the Cycling state is
+never set. So I'm considering Walking and Running to be cycling if the
+speed is greater than 12 mph.
+
+I'm moving away from Garmin and today my email quidditch trigger took
+almost an hour to get delivered. This new detector should be more
+robust and it does not require any action on my part to trigger the
+Quidditch state.
+
 # Specification
 
 Assorted measurements and specifications for parts. Pulling this out
