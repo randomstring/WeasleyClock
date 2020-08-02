@@ -535,6 +535,9 @@ This project got written up on Hackaday
 This project got written up on Tom's Hardware
 <https://www.tomshardware.com/news/raspberry-pi-weasley-family-clock-from-harry-potter-runs-like-magic>
 
+and made Tom's Hardware list of best Pi projects for August 2020:
+<https://www.tomshardware.com/amp/features/best-raspberry-pi-projects>
+
 Made a first attempt at coding the Quiddich state detector using the
 iOS activity sensor. On iOS each activity has it's own state, true or
 false. However, the way that the Home Assistant app reports it is as a
