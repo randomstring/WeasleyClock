@@ -551,6 +551,36 @@ almost an hour to get delivered. This new detector should be more
 robust and it does not require any action on my part to trigger the
 Quidditch state.
 
+# 2020-09-06 Queue state changes
+
+So after living with the clock for a while some states can flip back
+and forth pretty quickly, especially between the Garden and Home
+states. These states are triggered by that person's phone connecting
+to different Wi-Fi access points and suceptible to the mysteries of
+wifi AP assignment. For instance, walking into the garage would
+sometimes trigger the Garden state. Worse, when near the house your
+phone might keep jumping between two APs (outside and inside) and the
+clock would just go nuts, swinging your clock hand back and forth
+between Garden and Home.
+
+My solution was to put a 30 second delay before moving the clock hands
+for certain states: Home, Garden, and Barn. This should cut down on
+some of the flailing. This is not perfect, and I should implement a
+proper queue.
+
+I made a second improvement to the staggered hand style. This style is
+now adaptive to how many hands were in that sector. If there's just
+one person in the Garden, that hand is right in the middle of the
+sector. If a second person goes into the garden that hand moves over
+to make room for the other hand. Likewise for 3 and 4 hands in the
+same sector. This gives the hand movement a more organic feel as the
+hands in the target sector move slightly as a new hand moves into the
+sector.
+
+After six months one of the hands occationally squeaks. I didn't put
+any lubrication in the shafts or on the gears and I'm probably going
+to have to take it all apart and apply grease sometime soon.
+
 # Specification
 
 Assorted measurements and specifications for parts. Pulling this out
