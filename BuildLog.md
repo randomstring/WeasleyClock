@@ -581,6 +581,13 @@ After six months one of the hands occationally squeaks. I didn't put
 any lubrication in the shafts or on the gears and I'm probably going
 to have to take it all apart and apply grease sometime soon.
 
+## 2021-06-19 WhereslyClock
+
+This project inspired a new Weasley Clock project
+<https://github.com/WhereslyClock/MyWhereslyClock> using Arduino,
+MQTT, and C. This is a lower budget build using more 3D printed parts
+and less expensive motors. Nicely done!
+
 # Specification
 
 Assorted measurements and specifications for parts. Pulling this out

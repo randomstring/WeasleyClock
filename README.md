@@ -132,6 +132,7 @@ researching how others have attempted to build a Weasley Clock. The
 most complete and authentic build I've found is by [Printable
 Props](https://www.instagram.com/printableprops/).
 
+-   <https://github.com/WhereslyClock/MyWhereslyClock>
 -   <http://www.themagicclock.com/>
 -   <https://printableprops.jimdo.com/en/harry-potter/weasley-clock/>
 -   <https://www.instructables.com/id/Build-Your-Own-Weasley-Location-Clock/>
