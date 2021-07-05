@@ -588,6 +588,38 @@ This project inspired a new Weasley Clock project
 MQTT, and C. This is a lower budget build using more 3D printed parts
 and less expensive motors. Nicely done!
 
+
+## 2021-07-02 Wahoo Live Updates
+
+I was hoping to use an API, but the Wahoo API that got published is
+focused on getting and updating activities and not on monitoring the
+live track. So I resorted to a very hackish way to extrack the last
+update time for a user's live track. First you have to configure a
+permanent live track link. Then I use the Home Assistant command_line
+sensor to monitor how long it has been since the last live track
+update. When the update time goes below 5 minutes, I take that to mean
+I am cycling. This then triggers the Quidditch state.
+
+
+The command looks like this:
+
+```
+curl -s https://www.wahooligan.com/users/live/SECRET_URL | grep 'class=\"livetrack\"' | sed -E 's/.+data\\-seconds\\-since\\-update=\\\"([0-9]+)\\.[0-9]+\\\".+/\\1/'"
+```
+
+This is what goes into sensors.yaml. I keep the command in
+secrets.yaml, as the URL is a secret and there is no way to mix
+!secret directives into a command line action.
+
+```yaml
+  - platform: command_line
+    command: !secret wahoo_command
+    name: Bryn Last Actively Cycling
+    unit_of_measurement: "seconds"
+    command_timeout: 15
+    scan_interval: 300
+```
+
 # Specification
 
 Assorted measurements and specifications for parts. Pulling this out
