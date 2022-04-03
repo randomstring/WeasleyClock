@@ -147,6 +147,8 @@ Props](https://www.instagram.com/printableprops/).
 -   <https://www.youtube.com/watch?v=NH0jhxouQM8>
 -   <https://www.youtube.com/watch?v=WJ2PBmOW_Rc>
 -   <http://www.thisispete.com/work/prototyping/weather_clock/>
+-   <https://imgur.com/gallery/wX98fOc>
+-   <https://www.reddit.com/r/homeassistant/comments/ts0y6a/got_round_to_converting_my_weasley_clock_to_be/>
 
 ## Artwork
 
