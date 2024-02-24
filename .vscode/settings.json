@@ -3,10 +3,28 @@
     "*.yaml": "home-assistant"
   },
   "cSpell.words": [
+    "autoarchive",
+    "Bryn",
+    "geolocation",
+    "Grabcad",
+    "Hackaday",
+    "HACS",
     "Hass",
+    "intransit",
+    "Konnected",
+    "Minalima",
+    "Quiddich",
     "Quidditch",
+    "Quora",
+    "Strava",
+    "templating",
     "Traccar",
     "Unifi",
-    "Weasley"
+    "Weasley",
+    "weasleyclock",
+    "weasleyclockd",
+    "Wheresly",
+    "Woot",
+    "Zwift"
   ]
 }

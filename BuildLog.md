@@ -475,11 +475,11 @@ In the end I took one last look at the Garmin LiveTrack feature. This
 will send an email with a URL for tracking your ride in real time. I
 use this email as a trigger when I start a ride and I use my return
 home as a trigger that the ride is over. In the future I'll work on
-actually pulling the URL fromthe email to detect when the ride is
+actually pulling the URL from the email to detect when the ride is
 over. Or just time out after 2 hours of being stationary.
 
 Steps:
- - create a dummy gmail account to recieve notifications
+ - create a dummy gmail account to receive notifications
  - turn on LiveTracking on my Garmin 530 and send notifications to new gmail account
  - enable email sensor on HA https://www.home-assistant.io/integrations/imap_email_content/
  - autoarchive new emails after 15 minutes
@@ -511,7 +511,7 @@ Wahoo. Wahoo also has a cloud API in the works.
 
 # 2020-06-13
 
-Noticed that clock state sensor in homeassistant was not getting
+Noticed that clock state sensor in HomeAssistant was not getting
 updated often enough. Only on major state transitions 'moving' to
 'stationary' for instance. I added the home assistant proximity
 integration to add something with a value that would change as the
@@ -556,7 +556,7 @@ Quidditch state.
 So after living with the clock for a while some states can flip back
 and forth pretty quickly, especially between the Garden and Home
 states. These states are triggered by that person's phone connecting
-to different Wi-Fi access points and suceptible to the mysteries of
+to different Wi-Fi access points and susceptible to the mysteries of
 wifi AP assignment. For instance, walking into the garage would
 sometimes trigger the Garden state. Worse, when near the house your
 phone might keep jumping between two APs (outside and inside) and the
@@ -577,7 +577,7 @@ same sector. This gives the hand movement a more organic feel as the
 hands in the target sector move slightly as a new hand moves into the
 sector.
 
-After six months one of the hands occationally squeaks. I didn't put
+After six months one of the hands occasionally squeaks. I didn't put
 any lubrication in the shafts or on the gears and I'm probably going
 to have to take it all apart and apply grease sometime soon.
 
@@ -593,7 +593,7 @@ and less expensive motors. Nicely done!
 
 I was hoping to use an API, but the Wahoo API that got published is
 focused on getting and updating activities and not on monitoring the
-live track. So I resorted to a very hackish way to extrack the last
+live track. So I resorted to a very hackish way to extract the last
 update time for a user's live track. First you have to configure a
 permanent live track link. Then I use the Home Assistant command_line
 sensor to monitor how long it has been since the last live track
@@ -619,6 +619,21 @@ secrets.yaml, as the URL is a secret and there is no way to mix
     command_timeout: 15
     scan_interval: 300
 ```
+
+## 2023-10-01 jinja macros
+
+Created Jinja templating macros to compute the home AP name and implement each sensor in HomeAssistant. This eliminates all the duplication of code and logic.
+
+Note to self: update the code in this github repo.
+
+## 2024-01-01 No More Life360
+
+Life360 removed from HomeAssistant, because Life360 locked everyone out of their API access. 
+I migrated to using the Apple iCloud integration. I added an automation that does a iCloud
+update whenever someone leaves home. The iCloud integration isn't as fast or frequent with 
+location updates as life360 was, nor does it give speed information. I'm considering migrating
+to Traccar, but at the moment iCloud works just fine. 
+
 
 # Specification
 
@@ -678,7 +693,7 @@ Resources:
 ## Clock Hands Solution
 
 My son, Alex, generated the 3D CAD models for the hands with some
-artisitc input from myself. In particular I spent a fair amount of
+artistic input from myself. In particular I spent a fair amount of
 time finding a good font to use. After a couple iterations they came
 out great! He put in a little extra time to make his clock hand have
 some extra flair.
