@@ -13,11 +13,14 @@ Details of the build can be found in my [Build Log](BuildLog.md).
 ![Weasley Clock Flow Diagram](https://raw.githubusercontent.com/randomstring/WeasleyClock/master/images/WeasleyClockDiagram.png)
 
 
-1. Track location of family members using
-   [Life360](http://life360.com/). This service allows for real-time
-   updates of each family member's location and speed. Life360 allows
-   for naming of arbitrary geo-fenced areas. This is used for labling
-   locations like school and work.
+1. Track location of family members using the Apple iCloud integration
+   in HomeAssistant. This service allows for real-time
+   updates of each family member's location and speed. HomeAssistant allows
+   for naming of arbitrary geo-fenced areas. This is used for labeling
+   locations like school and work. I might switch over to using Traccar at some point to get
+   better reporting on movement. The initial implementation used life360, but
+   they locked out any external access to their API, breaking the HomeAssistant
+   integration. 
 
 2. Use [Home Assistant](https://www.home-assistant.io/) as a clearing
    house for family member location and movement within and around
@@ -57,7 +60,7 @@ Details of the build can be found in my [Build Log](BuildLog.md).
 
 What each sector of the clock face means:
 
-* **Home** The home state is triggered by the Home Assistant Life360
+* **Home** The home state is triggered by the Home Assistant Apple iCloud
   integration. I have a defined geo-fenced area, when we are inside
   that region, we are considered home. I also use the Home Assistant
   Unifi integration to identify when members of the family are
@@ -82,9 +85,9 @@ What each sector of the clock face means:
 * **Garden** This sector is triggered when connecting to the WiFi
   access point outside, near the garden.
 
-* **School** Triggered when at a Life360 location labeled as "school."
+* **School** Triggered when at a location labeled as "school."
 
-* **Work** Triggered when at a Life360 location labeled as "work."
+* **Work** Triggered when at a location labeled as "work."
 
 * **Quidditch** Triggered when someone is bicycling. I have this
   triggered in two ways. First, by a complex set of rules about low
@@ -92,7 +95,7 @@ What each sector of the clock face means:
   driving. Secondly, I detect when someone is currently active on
   [Zwift](https://zwift.com/), an VR indoor cycling app.
 
-* **Mortal Peril** This is triggered if Life360 measures someone's
+* **Mortal Peril** This is triggered if the tracker measures someone's
   speed as greater than 75mph. With teenagers on the verge of driving
   age, I will be watching this one closely.
 
@@ -132,6 +135,7 @@ researching how others have attempted to build a Weasley Clock. The
 most complete and authentic build I've found is by [Printable
 Props](https://www.instagram.com/printableprops/).
 
+-   <https://www.allderhallows.com/>
 -   <https://hunterjm.github.io/location-clock/>
 -   <https://github.com/WhereslyClock/MyWhereslyClock>
 -   <http://www.themagicclock.com/>
@@ -179,8 +183,8 @@ integrate them once I have the clock mechanism finished. I started a new project
 
 I am using [Home Assistant](<https://www.home-assistant.io/>) for
 tracking and transmitting the location of my family members. To do
-this I am using the [Life360
-integration](<https://www.home-assistant.io/integrations/life360/>) for
+this I am using the [Apple iCloud
+integration](<https://www.home-assistant.io/integrations/icloud/>) for
 detailed location tracking. For tracking finer locations around the
 house I am using the [Unifi
 integration](<https://www.home-assistant.io/integrations/unifi>) to
